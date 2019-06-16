@@ -1090,12 +1090,12 @@ animation-delay: .8s;
 #partner-section {
   margin: 100px 0 0 0;
   background: #f9f9f9;
-  padding: 50px 0;
+  padding: 25px 0;
 }
 #partner-section .item {
   border:1px solid #dfdfdf;
   height: 195px;
-  padding-top: 22px;
+  padding: 15px;
 }
 #partner-section .item img {
   margin: 0 auto;
@@ -1621,3 +1621,4 @@ footer p {
 .blog-details-post-wrapper .post-comment form button:hover {
   background:#fff;
 }
+

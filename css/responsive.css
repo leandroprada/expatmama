@@ -56,6 +56,7 @@
   #team-section .team-member-wrapper .float-left {width: 50%;}
   #our-client .client-slider p {width: 90%;}
   .inner-page-banner .opacity {padding-top: 210px;}
+#video-area .contents h1 {font-size: 32px;line-height: 48px;}
 }
 /*(min-width: 768px) and (max-width: 991px)*/
 
@@ -111,6 +112,9 @@
   .blog-details-post-wrapper .post-share-area ul {float:none; width: 100%;}
   .blog-details-post-wrapper .list-img-wrapper ul {float:none;padding: 30px 0 0 0;}
   .blog-details-post-wrapper .post-share-area .share-icon li:first-child {margin-top: 30px;}
+
+#video-area .contents h1 {font-size: 30px;line-height: 48px;}
+ 
 }
 
 @media (max-width: 550px) {
@@ -128,4 +132,10 @@
   .banner h6 {font-size: 14px;}
   .hermes.tparrows {display: none;}
   .recent-single-post .post {width: 100%;padding: 12px 0 0 0;}
+}
+
+@media (max-width: 320px {
+	#video-area .contents {padding:80px 0 60px;}
+	#video-area .contents h1 {font-size: 18px;line-height: 32px;}
+	.video-promo .video-promo-content h2 {font-size: 18px;}
 }

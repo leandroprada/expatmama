@@ -194,7 +194,14 @@ animation-delay: .8s;
  button {border:none;outline: none;box-shadow: none;display: block; padding: 0;}
  input,textarea {outline: none; box-shadow: none;-webkit-transition: all 0.3s ease-in-out;-o-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;}
 
+.buy-now {
+	text-align :center;
+	padding: 20px;
+}
 
+.buy-now input {
+margin-bottom: 10px;
+}
 .clear-fix { clear:both;}
 .clear-fix:after {
   display: table;
@@ -1621,4 +1628,3 @@ footer p {
 .blog-details-post-wrapper .post-comment form button:hover {
   background:#fff;
 }
-

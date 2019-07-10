@@ -1,12 +1,12 @@
 /* CSS Document */
 
-/* 
-    Created on : 1/15/2017. 
+/*
+    Created on : 1/15/2017.
     Theme Name : BizPro.
     Description: BizPro- Responsive html5 template.
     Version    : 1.1.
     Author     : @SRThemes.
-   
+
 */
 
 /* ------------------------------------------ */
@@ -61,7 +61,7 @@
 @import url('../vendor/monthly-master/css/monthly.css');
 
 
-/*** 
+/***
 
 ====================================================================
   Loading Transition
@@ -90,15 +90,15 @@
   bottom:0px;
   width: 6px;
   height: 5px;
-  background:#e04f5d; 
+  background:#e04f5d;
   position:absolute;
   animation: preloader_1 1.5s  infinite ease-in-out;
 }
- 
+
 #preloader_1 span:nth-child(2){
 left:11px;
 animation-delay: .2s;
- 
+
 }
 #preloader_1 span:nth-child(3){
 left:22px;
@@ -120,13 +120,23 @@ animation-delay: .8s;
 }
 
 
-/*** 
+/***
 
 ====================================================================
   Click To Top
 ====================================================================
 
  ***/
+.resources-title {
+  padding-top: 25px;  
+  color: #d73e4d;
+}
+ .podcastinterview {
+color: white;
+font-size: 1.5em;
+display: inline-block;
+
+ }
 .scroll-top {
   width:45px;
   height:45px;
@@ -151,7 +161,7 @@ animation-delay: .8s;
   background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 80%);
   background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 80%);
 }
-/*** 
+/***
 
 ====================================================================
   Global Settings
@@ -292,7 +302,7 @@ margin-bottom: 10px;
   border-color:#d73e4d;
   border-style: solid;
 }
-/*** 
+/***
 
 ====================================================================
   Theme Header
@@ -313,7 +323,7 @@ margin-bottom: 10px;
   font-weight: 700;
   background: transparent;
   padding: 9px 15px;
-} 
+}
 .theme-main-menu .navbar-nav>li:last-child>a {
   padding-right: 0;
 }
@@ -382,7 +392,7 @@ margin-bottom: 10px;
   cursor: pointer;
   line-height: 44px;
 }
-/*** 
+/***
 
 ====================================================================
   Sticky Menu
@@ -409,7 +419,7 @@ margin-bottom: 10px;
 .theme-main-header.fixed .logo {
   margin-top: -8px;
 }
-/*** 
+/***
 
 ====================================================================
   Theme Main Banner
@@ -432,7 +442,7 @@ margin-bottom: 10px;
   border-width: 1px;
   text-transform: uppercase;
 }
-/*** 
+/***
 
 ====================================================================
   About section
@@ -468,7 +478,7 @@ margin-bottom: 10px;
 #about-us .single-about-content:hover .icon {
   color:#fff;
 }
-/*** 
+/***
 
 ====================================================================
   Service section
@@ -537,7 +547,7 @@ margin-bottom: 10px;
        -o-transform: translate3D(0,0,0);
           transform: translate3D(0,0,0);
 }
-/*** 
+/***
 
 ====================================================================
   Project section
@@ -561,7 +571,7 @@ margin-bottom: 10px;
   border-color: transparent;
   margin: 15px 10px 0 10px;
   padding-bottom: 10px;
-} 
+}
 #project-section .project-gallery .grid-item {
   width: 33.33333333333%;
   padding: 0 15px;
@@ -669,7 +679,7 @@ margin-bottom: 10px;
           transform: translate3D(0,0,0);
 }
 
-/*** 
+/***
 
 ====================================================================
   Page Middle Banner
@@ -699,7 +709,7 @@ margin-bottom: 10px;
   font-weight: 700;
   border-width:1px;
 }
-/*** 
+/***
 
 ====================================================================
   Team Section
@@ -873,7 +883,7 @@ margin-bottom: 10px;
           transform: translate3D(0,0,0);
 }
 
-/*** 
+/***
 
 ====================================================================
   Skill Section
@@ -931,7 +941,7 @@ margin-bottom: 10px;
   padding: 0;
   float:none;
 }
-/*** 
+/***
 
 ====================================================================
   Our Client
@@ -963,7 +973,7 @@ margin-bottom: 10px;
   border: 1px solid#9d9f9f;
   margin: 0 5px;
 }
-/*** 
+/***
 
 ====================================================================
   Pricing Section
@@ -1024,7 +1034,7 @@ margin-bottom: 10px;
 #pricing-section .single-price-table a:hover {
   background: #fff;
 }
-/*** 
+/***
 
 ====================================================================
   Blog Section
@@ -1087,7 +1097,7 @@ margin-bottom: 10px;
 #blog-section .single-news-item .post p a {
   color: #292929;
 }
-/*** 
+/***
 
 ====================================================================
   Partner Section
@@ -1107,7 +1117,7 @@ margin-bottom: 10px;
 #partner-section .item img {
   margin: 0 auto;
 }
-/*** 
+/***
 
 ====================================================================
   Contact Section
@@ -1187,7 +1197,7 @@ margin-bottom: 10px;
 #contact-section .send-message form button:hover {
   background: #fff;
 }
-/*** 
+/***
 
 ====================================================================
   Conatct Form Activation
@@ -1252,7 +1262,7 @@ margin-bottom: 10px;
 .form-validation textarea.error {
   border:1px solid #f03838 !important;
 }
-/*** 
+/***
 
 ====================================================================
   Footer
@@ -1343,10 +1353,10 @@ footer p {
   font-size: 15px;
   margin-top: 50px;
 }
-/*** 
+/***
 
 ====================================================================
-  Inner Page Banner 
+  Inner Page Banner
 ====================================================================
 
  ***/
@@ -1374,7 +1384,7 @@ footer p {
 .inner-page-banner .opacity ul li a {
   color:#fff;
 }
-/*** 
+/***
 
 ====================================================================
   Blog Aside bar
@@ -1473,7 +1483,7 @@ footer p {
   border: 1px solid #dfdfdf;
   border-radius: 5px;
 }
-/*** 
+/***
 
 ====================================================================
   Blog Details Post

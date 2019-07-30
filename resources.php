@@ -482,9 +482,10 @@
 							
 							
 							
+							<?php }else{ ?>
+							<h3 class="">Please login to see Exclusive Content!</h3>
+							<?php }?>
 							
-							
-						
 					
 
 							

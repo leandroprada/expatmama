@@ -610,7 +610,7 @@
 														<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 															<div class="opacity"> 
 															 
-															<h3 class="">Please login to see Exclusive Content!</h3>
+															<h3 class="">Please <a href="http://www.expatmama.life/login/login.php">login</a> to see Exclusive Content!</h3>
 															</div>
 														</div>
 													</div>

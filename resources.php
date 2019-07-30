@@ -103,7 +103,7 @@
 								<!-- SLIDE1  -->
 								<li data-index="rs-280" data-transition="fade" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default"  data-title="Resources" data-description="">
 									<!-- MAIN IMAGE -->
-									<img src="images/home/slide-1r.jpg"  alt="image" class="rev-slidebg" data-bgparallax="3" data-bgposition="center center" data-duration="20000" data-ease="Linear.easeNone" data-kenburns="on" data-no-retina="" data-offsetend="0 0" data-offsetstart="0 0" data-rotateend="0" data-rotatestart="0" data-scaleend="100" data-scalestart="140">
+									<img src="images/home/slide-2.jpg"  alt="image" class="rev-slidebg" data-bgparallax="3" data-bgposition="center center" data-duration="20000" data-ease="Linear.easeNone" data-kenburns="on" data-no-retina="" data-offsetend="0 0" data-offsetstart="0 0" data-rotateend="0" data-rotatestart="0" data-scaleend="100" data-scalestart="140">
 									<!-- LAYERS -->
 
 									<!-- LAYER NR. 1 -->
@@ -179,11 +179,8 @@
 				<div class="container">
 					<div class="page-middle-banner">
 						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-							<div class="opacity"> 
-							 
+							<div class="opacity">
 								<h3 class="">Enjoy our extra resources!</h3>
-								
-									
 
 							<h4 class="resources-title">Podcasts</h4>
 							<p>I have done a series of interviews with expats, which can be listened to here below.</p>
@@ -197,7 +194,7 @@
 
 								</div>
 									<div><audio controls>
-									  <source src="./resources/christieOgden06302019.wav" type="audio/wav">
+									  <source src="./resources/christieOgden06302019.ogg" type="audio/ogg">
 									Your browser does not support the audio element.
 									</audio>
 									</div>
@@ -214,7 +211,7 @@
 
 								</div>
 									<div><audio controls>
-									  <source src="./resources/miaMendes07022019.wav" type="audio/wav">
+									  <source src="./resources/miaMendes07022019.ogg" type="audio/ogg">
 									Your browser does not support the audio element.
 									</audio>
 									</div>
@@ -226,7 +223,7 @@
 								Mexican born Jose Hernandes, owner of a great New York Style pizzeria called "Pizzeria Eskondida" in Merida, Yucatan, Mexico, talks about returning to Mexico after living 27 years in the US. Interesting info about the quality of cleaning products in the US vs. Mexico, as well as food, US "commercial culture", safety in Merida, Mexico and other so-called "dangerous places" in Latin America, as well as the Yucatan Peninsula, Puerto Vallarta, and Acapulco. What international friendships are like.
 								</div>
 									<div><audio controls>
-										<source src="./resources/joseHernandes07032019.wav" type="audio/wav">
+										<source src="./resources/joseHernandes07032019.ogg" type="audio/ogg">
 									Your browser does not support the audio element.
 									</audio>
 									</div>
@@ -241,7 +238,7 @@
 
 								</div>
 									<div><audio controls>
-										<source src="./resources/coriBauman07042019.wav" type="audio/wav">
+										<source src="./resources/coriBauman07042019.ogg" type="audio/ogg">
 									Your browser does not support the audio element.
 									</audio>
 									</div>
@@ -262,7 +259,7 @@
 
 								</div>
 									<div><audio controls>
-										<source src="./resources/priscilaHoffman07112019.wav" type="audio/wav">
+										<source src="./resources/priscilaHoffman07112019.ogg" type="audio/ogg">
 									Your browser does not support the audio element.
 									</audio>
 									</div>
@@ -281,7 +278,7 @@
 
 								</div>
 									<div><audio controls>
-										<source src="./resources/anneGlennieRuttan07052019.wav" type="audio/wav">
+										<source src="./resources/anneGlennieRuttan07052019.ogg" type="audio/ogg">
 									Your browser does not support the audio element.
 									</audio>
 									</div>
@@ -301,7 +298,7 @@
 									A discussion on how varied Mexico can be from region to region. She truly has an amazing story. Her quote or motto is this: “I do the difficult immediately; the impossible takes me a little longer.”
 								</div>
 									<div><audio controls>
-										<source src="./resources/camilleFlores07152019.wav" type="audio/wav">
+										<source src="./resources/camilleFlores07152019.ogg" type="audio/ogg">
 									Your browser does not support the audio element.
 									</audio>
 									</div>
@@ -315,7 +312,7 @@
 									How Dylan feels about living this lifestyle.
 								</div>
 									<div><audio controls>
-										<source src="./resources/dylanW07212019.wav" type="audio/wav">
+										<source src="./resources/dylanW07212019.ogg" type="audio/ogg">
 									Your browser does not support the audio element.
 									</audio>
 									</div>
@@ -336,7 +333,7 @@
 								<div><a style="margin-bottom:20px;" href="https://www.trustedhousesitters.com/refer/RAF171298/" target="_blank">25% off!</a>
 								</div>
 									<div><audio controls>
-										<source src="./resources/douglasDeRubeis07182019.wav" type="audio/wav">
+										<source src="./resources/douglasDeRubeis07182019.ogg" type="audio/ogg">
 									Your browser does not support the audio element.
 									</audio>
 									</div>
@@ -355,7 +352,7 @@
 									Why she believes she's found the best place on earth to live and why Chapala, Mexico feels like home. 
 								</div>
 									<div><audio controls>
-										<source src="./resources/lorrainePowell07232019.wav" type="audio/wav">
+										<source src="./resources/lorrainePowell07232019.ogg" type="audio/ogg">
 									Your browser does not support the audio element.
 									</audio>
 									</div>
@@ -379,7 +376,7 @@
 								
 								</div>
 									<div><audio controls>
-										<source src="./resources/heidiLane07222019.wav" type="audio/wav">
+										<source src="./resources/heidiLane07222019.ogg" type="audio/ogg">
 									Your browser does not support the audio element.
 									</audio>
 									</div>
@@ -401,7 +398,7 @@
 									He's conducted a series of interviews with fellow adventurers.
 								</div>
 									<div><audio controls>
-										<source src="./resources/introLeo.wav" type="audio/wav">
+										<source src="./resources/introLeo.ogg" type="audio/ogg">
 									Your browser does not support the audio element.
 									</audio>
 									</div>
@@ -416,7 +413,7 @@
 
 								</div>
 									<div><audio controls>
-										<source src="./resources/antonellaCravero07162019-w.wav" type="audio/wav">
+										<source src="./resources/antonellaCravero07162019-w.ogg" type="audio/ogg">
 									Your browser does not support the audio element.
 									</audio>
 									</div>
@@ -428,7 +425,7 @@
 									Juan Pablo Sans is a digital nomad translator. Originally from Venezuela, he is now  based in Europe. Currently he is working and living in Seville, Spain, and sometimes commutes to Cambridge, UK for business. He enjoys the freedom of doing what he wants whenever he wants. He also helps others if they need help venturing into the expat life.
 								</div>
 									<div><audio controls>
-										<source src="./resources/juanPabloSans07182019-w.wav" type="audio/wav">
+										<source src="./resources/juanPabloSans07182019-w.ogg" type="audio/ogg">
 									Your browser does not support the audio element.
 									</audio>
 									</div>
@@ -441,7 +438,7 @@
 									Mat&iacute;as Ort&iacute;z is now a digital nomad and founder of Letras N&oacute;madas, a program helping out translators get out of their living room shell. After more than 10 years of corporate life in a multinational company, he decided to live the digital nomad life, doing some slow travelling, he is currently house-sitting in the vecinity of Lake Chapala in Mexico.
 								</div>
 									<div><audio controls>
-										<source src="./resources/matiasOrtiz07222019.wav" type="audio/wav">
+										<source src="./resources/matiasOrtiz07222019.ogg" type="audio/ogg">
 									Your browser does not support the audio element.
 									</audio>
 									</div>
@@ -453,7 +450,19 @@
 									Fred Badagnani is an American expat, currently living in Argentina. He owns a company providing airport executive transport services. He's been to 49 of the 50 states, missing only Hawaii. Moving away from Argentina if the situation changes is not out of the question for Fred.
 								</div>
 									<div><audio controls>
-										<source src="./resources/fredBadagnani07252019.wav" type="audio/wav">
+										<source src="./resources/fredBadagnani07252019.ogg" type="audio/ogg">
+									Your browser does not support the audio element.
+									</audio>
+									</div>
+							</div>
+							
+								<div class="whatsappcontainer">
+								<h5 class="whatsappinterview"><i class="fab fa-whatsapp"></i>  Colin Smith </h5>
+								<div class="whatsappinfo col-xs-12 center-left">
+									Colin Smith is an American expat, currently living in Argentina. He moved to Buenos Aires with his family (wife and 4 children) and he shares with us the intricacies of life abroad, and how events untangled in his life after the move.
+								</div>
+									<div><audio controls>
+										<source src="./resources/colinSmith07302019.ogg" type="audio/ogg">
 									Your browser does not support the audio element.
 									</audio>
 									</div>
@@ -480,12 +489,14 @@
 								</div>
 							
 							
-							</div>
+							
+							
+							
 						</div>
 					</div>
-				</div>					
-							
-							
+				</div>
+			</div>
+		</div>
 
 							
 				

@@ -30,17 +30,12 @@
 							<li class="resource-child"><a href="./resources.html#blogk-section">BLOG</a></li> -->
 							<li><a href="#contact-section">CONTACT</a></li>
 							<?php if (($_SESSION['login']) == 'validated') {
-					?><span class="button-group-area mt-10">
-						<li><a href="./login/logout.php" class="genric-btn primary circle">Logout</a></li>
-				</span>
-
+					?>		<li><a href="./login/logout.php">Logout</a></li>
 												
 					<?php }else{ ?>
 				
-				<span class="button-group-area mt-40">
-						<li><a href="./login/login.php" class="genric-btn danger circle">Login<span class="lnr lnr-arrow-right"></span></a></li>
-			    </span>	
-				<?php } ?>
+					<li><a href="./login/login.php" class="genric-btn danger circle">Login<span class="lnr lnr-arrow-right"></span></a></li>
+			    <?php } ?>
 					
 					</ul>
 					   </div><!-- /.navbar-collapse -->

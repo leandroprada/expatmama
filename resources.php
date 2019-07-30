@@ -75,12 +75,10 @@
 							<li><a href="#whatsapp-section">WHATSAPP</a></li>
 							<li><a href="#blogk-section">BLOG</a></li>
 					
-							<li><a href="./login/logout.php">Logout</a></li>
+							<li><a href="./login/logout.php">LOGOUT</a></li>
 												
 					
 				
-					<li><a href="./login/login.php" class="genric-btn danger circle">Login<span class="lnr lnr-arrow-right"></span></a></li>
-			    
 					
 					</ul>
 					   </div><!-- /.navbar-collapse -->
@@ -524,27 +522,9 @@
 
 
 
-			<!-- =============================================
-				Loading Transition
-			============================================== -->
-			<div id="loader-wrapper">
-				<div id="preloader_1">
-	                <span></span>
-	                <span></span>
-	                <span></span>
-	                <span></span>
-	                <span></span>
-	            </div>
-			</div>
 
-
-	        <!-- Scroll Top Button -->
-			<button class="scroll-top tran3s p-color-bg">
-				<i class="fa fa-arrow-up" aria-hidden="true"></i>
-			</button>
-
-		</div> <!-- /.main-page-wrapper -->
-<!-- =============================================
+		
+	<!-- =============================================
 				Loading Transition
 			============================================== -->
 			<div id="loader-wrapper">
@@ -600,6 +580,25 @@
 		<script type="text/javascript" src="js/theme.js"></script>
 		<script type="text/javascript" src="js/map-script.js"></script>
 </div> <!-- /.main-page-wrapper -->
+<!-- Default Statcounter code for ExpatMama https://expatmama.leandroprada.website -->
+				<!-- Default Statcounter code for ExpatMama
+					http://www.expatmama.life -->
+					<script type="text/javascript">
+					var sc_project=12027685;
+					var sc_invisible=1;
+					var sc_security="6acb0cb9";
+					</script>
+					<script type="text/javascript"
+					src="https://www.statcounter.com/counter/counter.js"
+					async></script>
+					<noscript><div class="statcounter"><a title="Web Analytics
+					Made Easy - StatCounter" href="https://statcounter.com/"
+					target="_blank"><img class="statcounter"
+					src="https://c.statcounter.com/12027685/0/6acb0cb9/1/"
+					alt="Web Analytics Made Easy -
+					StatCounter"></a></div></noscript>
+					<!-- End of Statcounter Code -->
+
 
 <?php }else{ ?>
 
@@ -625,24 +624,7 @@
 <?php } ?>
 
 
-		<!-- Default Statcounter code for ExpatMama https://expatmama.leandroprada.website -->
-				<!-- Default Statcounter code for ExpatMama
-					http://www.expatmama.life -->
-					<script type="text/javascript">
-					var sc_project=12027685;
-					var sc_invisible=1;
-					var sc_security="6acb0cb9";
-					</script>
-					<script type="text/javascript"
-					src="https://www.statcounter.com/counter/counter.js"
-					async></script>
-					<noscript><div class="statcounter"><a title="Web Analytics
-					Made Easy - StatCounter" href="https://statcounter.com/"
-					target="_blank"><img class="statcounter"
-					src="https://c.statcounter.com/12027685/0/6acb0cb9/1/"
-					alt="Web Analytics Made Easy -
-					StatCounter"></a></div></noscript>
-					<!-- End of Statcounter Code -->
+		
 
               
             

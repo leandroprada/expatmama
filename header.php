@@ -31,14 +31,14 @@
 							<li><a href="#contact-section">CONTACT</a></li>
 							<?php if (($_SESSION['login']) == 'validated') {
 					?><span class="button-group-area mt-10">
-						<a href="./login/logout.php" class="genric-btn primary circle">Salir</a>
+						<li><a href="./login/logout.php" class="genric-btn primary circle">Logout</a></li>
 				</span>
 
 												
 					<?php }else{ ?>
 				
 				<span class="button-group-area mt-40">
-						<a href="./login/login.php" class="genric-btn danger circle">Ingreso<span class="lnr lnr-arrow-right"></span></a>
+						<li><a href="./login/login.php" class="genric-btn danger circle">Login<span class="lnr lnr-arrow-right"></span></a></li>
 			    </span>	
 				<?php } ?>
 					

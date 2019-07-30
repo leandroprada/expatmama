@@ -68,7 +68,7 @@
 					   <!-- Collect the nav links, forms, and other content for toggling -->
 					   <div class="collapse navbar-collapse" id="navbar-collapse-1">
 					     <ul class="nav navbar-nav">
-					       	<li class="active"><a href="#home">HOME</a></li>
+					       	<li class="active"><a href="./index.php">HOME</a></li>
 							<li><a href="#podcast-section">PODCASTS</a></li>
 							<li><a href="#whatsapp-section">WHATSAPP</a></li>
 							<li><a href="#blogk-section">BLOG</a></li>
@@ -86,39 +86,14 @@
 
 				</div>
 			</header> <!-- /.theme-main-header -->
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
 
 <!--
 			=====================================================
 				Theme Main SLider
 			=====================================================
 			-->
+			
+					
 			<div id="home" class="banner">
 	        	<div class="rev_slider_wrapper">
 					<!-- START REVOLUTION SLIDER 5.0.7 auto mode -->
@@ -205,7 +180,8 @@
 				<div class="container">
 					<div class="page-middle-banner">
 						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-							<div class="opacity">
+							<div class="opacity"> 
+							 <?php if (($_SESSION['login']) == 'validated') { ?>
 								<h3 class="">Enjoy our extra resources!</h3>
 
 							<h4 class="resources-title">Podcasts</h4>
@@ -506,6 +482,12 @@
 							
 							
 							
+						
+					
+
+								<?php }else{ ?>
+						 <h3 class="">Enjoy our extra resources!</h3>
+						  <?php } ?>
 						</div>
 					</div>
 				</div>
@@ -563,8 +545,35 @@
 				<i class="fa fa-arrow-up" aria-hidden="true"></i>
 			</button>
 
+		</div> <!-- /.main-page-wrapper -->
+<!-- =============================================
+				Loading Transition
+			============================================== -->
+			<div id="loader-wrapper">
+				<div id="preloader_1">
+	                <span></span>
+	                <span></span>
+	                <span></span>
+	                <span></span>
+	                <span></span>
+	            </div>
+			</div>
 
 
+	        <!-- Scroll Top Button -->
+			<button class="scroll-top tran3s p-color-bg">
+				<i class="fa fa-arrow-up" aria-hidden="true"></i>
+			</button>
+
+		</div> <!-- /.main-page-wrapper -->
+
+    <?php } ?>
+
+
+
+
+
+    <?php } ?>
 
 		<!-- Js File_________________________________ -->
 
@@ -600,7 +609,6 @@
 		<script type="text/javascript" src="js/theme.js"></script>
 		<script type="text/javascript" src="js/map-script.js"></script>
 
-		</div> <!-- /.main-page-wrapper -->
 		<!-- Default Statcounter code for ExpatMama https://expatmama.leandroprada.website -->
 				<!-- Default Statcounter code for ExpatMama
 					http://www.expatmama.life -->

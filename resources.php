@@ -174,14 +174,14 @@
 	        </div> <!--  /#banner -->
 
 
-
+<?php if (($_SESSION['login']) == 'validated') { ?>
 		
 			<div id="podcast-section">
 				<div class="container">
 					<div class="page-middle-banner">
 						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 							<div class="opacity"> 
-							 <?php if (($_SESSION['login']) == 'validated') { ?>
+							 
 								<h3 class="">Enjoy our extra resources!</h3>
 								
 									
@@ -481,22 +481,32 @@
 								</div>
 							
 							
-							
-							<?php }else{ ?>
-							<h3 class="">Please login to see Exclusive Content!</h3>
-							<?php }?>
-							
-					
-
-							
+							</div>
 						</div>
 					</div>
-				</div>
-			</div>
-		</div>
+				</div>					
+							
+							
 
+							
+				
 
-
+								<?php }else{ ?>
+								<div id="podcast-section">
+												<div class="container">
+													<div class="page-middle-banner">
+														<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+															<div class="opacity"> 
+															 
+															<h3 class="">Please login to see Exclusive Content!</h3>
+															</div>
+														</div>
+													</div>
+												</div>
+								</div>								
+								<?php }?>
+							
+					
 	
 
 

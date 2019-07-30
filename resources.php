@@ -72,8 +72,8 @@
 							<li><a href="#podcast-section">PODCASTS</a></li>
 							<li><a href="#whatsapp-section">WHATSAPP</a></li>
 							<li><a href="#blogk-section">BLOG</a></li>
-							<?php if (($_SESSION['login']) == 'validated') {
-					?>		<li><a href="./login/logout.php">Logout</a></li>
+				<?php if (($_SESSION['login']) == 'validated') { ?>		
+							<li><a href="./login/logout.php">Logout</a></li>
 												
 					<?php }else{ ?>
 				
@@ -567,13 +567,7 @@
 
 		</div> <!-- /.main-page-wrapper -->
 
-    <?php } ?>
-
-
-
-
-
-    <?php } ?>
+    
 
 		<!-- Js File_________________________________ -->
 

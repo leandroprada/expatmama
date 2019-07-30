@@ -40,6 +40,8 @@
 	</head>
 
 	<body>
+	
+<?php if (($_SESSION['login']) == 'validated') { ?>	
 		<div class="main-page-wrapper">
 
 
@@ -72,13 +74,13 @@
 							<li><a href="#podcast-section">PODCASTS</a></li>
 							<li><a href="#whatsapp-section">WHATSAPP</a></li>
 							<li><a href="#blogk-section">BLOG</a></li>
-				<?php if (($_SESSION['login']) == 'validated') { ?>		
+					
 							<li><a href="./login/logout.php">Logout</a></li>
 												
-					<?php }else{ ?>
+					
 				
 					<li><a href="./login/login.php" class="genric-btn danger circle">Login<span class="lnr lnr-arrow-right"></span></a></li>
-			    <?php } ?>
+			    
 					
 					</ul>
 					   </div><!-- /.navbar-collapse -->
@@ -174,7 +176,6 @@
 	        </div> <!--  /#banner -->
 
 
-<?php if (($_SESSION['login']) == 'validated') { ?>
 		
 			<div id="podcast-section">
 				<div class="container">
@@ -491,21 +492,7 @@
 							
 				
 
-								<?php }else{ ?>
-								<div id="podcast-section">
-												<div class="container">
-													<div class="page-middle-banner">
-														<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-															<div class="opacity"> 
-															 
-															<h3 class="">Please login to see Exclusive Content!</h3>
-															</div>
-														</div>
-													</div>
-												</div>
-								</div>								
-								<?php }?>
-							
+								
 					
 	
 
@@ -576,8 +563,7 @@
 				<i class="fa fa-arrow-up" aria-hidden="true"></i>
 			</button>
 
-		</div> <!-- /.main-page-wrapper -->
-
+		
     
 
 		<!-- Js File_________________________________ -->
@@ -613,6 +599,31 @@
 		<!-- Theme js -->
 		<script type="text/javascript" src="js/theme.js"></script>
 		<script type="text/javascript" src="js/map-script.js"></script>
+</div> <!-- /.main-page-wrapper -->
+
+<?php }else{ ?>
+
+						<div class="main-page-wrapper">
+
+								<div id="podcast-section">
+												<div class="container">
+													<div class="page-middle-banner">
+														<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+															<div class="opacity"> 
+															 
+															<h3 class="">Please login to see Exclusive Content!</h3>
+															</div>
+														</div>
+													</div>
+												</div>
+								</div>								
+						</div>								
+						
+
+
+
+<?php } ?>
+
 
 		<!-- Default Statcounter code for ExpatMama https://expatmama.leandroprada.website -->
 				<!-- Default Statcounter code for ExpatMama

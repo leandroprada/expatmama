@@ -183,6 +183,8 @@
 							<div class="opacity"> 
 							 <?php if (($_SESSION['login']) == 'validated') { ?>
 								<h3 class="">Enjoy our extra resources!</h3>
+								
+									
 
 							<h4 class="resources-title">Podcasts</h4>
 							<p>I have done a series of interviews with expats, which can be listened to here below.</p>
@@ -485,9 +487,7 @@
 						
 					
 
-								<?php }else{ ?>
-						 <h3 class="">Enjoy our extra resources!</h3>
-						  <?php } ?>
+							
 						</div>
 					</div>
 				</div>

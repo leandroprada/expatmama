@@ -66,11 +66,11 @@
 							<li><a href="./index.html#expat-section">EXPAT</a></li>
 							<li><a href="./index.html#blog-section">ABOUT</a></li> -->
 							<!-- <li class="menu-has-children resouce-menu"><a href="#resources-section">RESOURCES&nbsp;&nbsp;&nbsp;</a></li> -->
-							<li ><a href="#podcast-section">PODCASTS</a></li>
-							<li class="resource-child"><a href="#podcasten-section">in English</a></li>
-							<li class="resource-child"><a href="#podcastes-section"> En Espa&ntilde;ol</a></li>
-							<li ><a href="#whatsapp-section">WHATSAPP</a></li>
-							<li class="resource-child"><a href="#blogk-section">BLOG</a></li>
+							<li ><a href="#podcast-section" onclick="home();">PODCASTS</a></li>
+							<li class="resource-child"><a href="#podcasten-section" onclick="home();">in English</a></li>
+							<li class="resource-child"><a href="#podcastes-section" onclick="home();"> En Espa&ntilde;ol</a></li>
+							<li ><a href="#whatsapp-section"onclick="home();">WHATSAPP</a></li>
+							<li class="resource-child"><a href="#blogk-section" onclick="home();">BLOG</a></li>
 							<!-- <li><a href="./index.html#contact-section">CONTACT</a></li> -->
 					     </ul>
 					   </div><!-- /.navbar-collapse -->
@@ -152,7 +152,7 @@
 										data-splitin="none"
 										data-splitout="none"
 										data-responsive_offset="on">
-										<a href="#podcast-section" class="project-button hvr-bounce-to-right">Dive right in!</a>
+										<a href="#podcast-section" class="project-button hvr-bounce-to-right" onclick="home();">Dive right in!</a>
 									</div>
 
 								</li>
@@ -162,54 +162,40 @@
 					</div><!-- END REVOLUTION SLIDER -->
 	        </div> <!--  /#banner -->
 
+<div class="container">
+<div class="row">
 
-<section id="about-us">
-				<div class="container">
-					<div class="theme-title">
-						<h2>RESOURCES</h2>
-						<div>Resources</div>
-					</div> <!-- /.theme-title -->
-
-					<div class="row">
-						<div class="col-lg-12 col-md-4 col-sm-6">
-							<div class="single-about-content">
-								<h5><a href="#podcast-section" class="tran3s">PODCASTS (EN)</a></h5>
-								<ul>
-								<a href="#podcast-section" class="more tran3s hvr-bounce-to-right"><li>Christie Ogden</li></a>
-								<a href="#podcast-section" class="more tran3s hvr-bounce-to-right"><li>Christie Ogden</li></a>
-								<a href="#podcast-section" class="more tran3s hvr-bounce-to-right"><li>Christie Ogden</li></a>
-								<a href="#podcast-section" class="more tran3s hvr-bounce-to-right"><li>Christie Ogden</li></a>
-								<a href="#podcast-section" class="more tran3s hvr-bounce-to-right"><li>Christie Ogden</li></a>
-								<a href="#podcast-section" class="more tran3s hvr-bounce-to-right"><li>Christie Ogden</li></a>
-								<a href="#podcast-section" class="more tran3s hvr-bounce-to-right"><li>Christie Ogden</li></a>
-								<a href="#podcast-section" class="more tran3s hvr-bounce-to-right"><li>Christie Ogden</li></a>
-								<a href="#podcast-section" class="more tran3s hvr-bounce-to-right"><li>Christie Ogden</li></a>
-								<a href="#podcast-section" class="more tran3s hvr-bounce-to-right"><li>Christie Ogden</li></a>
-								</ul>
-							</div> <!-- /.single-about-content -->
-						</div> <!-- /.col -->
-
-						<div class="col-lg-4 col-md-4 col-sm-6">
+			<div id="about-us" class="col-lg-2">
+				
+						
+						<div>
 							<div class="single-about-content">
 								<h5><a href="#podcastes-section" class="tran3s">PODCASTS (ES)</a></h5>
-								<ol>
-								<a href="#ogden" class="more tran3s hvr-bounce-to-right"><li>Christie Ogden</li></a>
+								<ol id="podcasts_es_list">
+								<div><a href="#podcast-section"" class="more tran3s hvr-bounce-to-right" onclick="showhidden(ogden);"><li>Christie Ogden</li></a></div>
+								<div><a href="#podcast-section" class="more tran3s hvr-bounce-to-right" onclick="showhidden(mendes);"><li>Mia Mendes</li></a></div>
+								<div><a href="#podcast-section" class="more tran3s hvr-bounce-to-right"><li>Christie Ogden</li></a></div>
+								<div><a href="#podcast-section" class="more tran3s hvr-bounce-to-right"><li>Christie Ogden</li></a></div>
+								<div><a href="#podcast-section" class="more tran3s hvr-bounce-to-right"><li>Christie Ogden</li></a></div>
+								<div><a href="#podcast-section" class="more tran3s hvr-bounce-to-right"><li>Christie Ogden</li></a></div>
+								<div><a href="#podcast-section" class="more tran3s hvr-bounce-to-right"><li>Christie Ogden</li></a></div>
+								<div><a href="#podcast-section" class="more tran3s hvr-bounce-to-right"><li>Christie Ogden</li></a></div>
+								<div><a href="#podcast-section" class="more tran3s hvr-bounce-to-right"><li>Christie Ogden</li></a></div>	
 								</ol>
-							</div> <!-- /.single-about-content -->
-						</div> <!-- /.col -->
-
-						<div class="col-lg-4 col-md-4 col-sm-6">
+							</div> 
+							
 							<div class="single-about-content">
 								<h5><a href="#whatsapp-section" class="tran3s">WHATSAPP Interviews</a></h5>
-								<ol>
-								<a href="#ogden" class="more tran3s hvr-bounce-to-right"><li>Christie Ogden</li></a>
-								<a href="#ogden" class="more tran3s hvr-bounce-to-right"><li>Christie Ogden</li></a>
-								<a href="#ogden" class="more tran3s hvr-bounce-to-right"><li>Christie Ogden</li></a>
-								<a href="#ogden" class="more tran3s hvr-bounce-to-right"><li>Christie Ogden</li></a>
-								<a href="#ogden" class="more tran3s hvr-bounce-to-right"><li>Christie Ogden</li></a>
-								<a href="#ogden" class="more tran3s hvr-bounce-to-right"><li>Christie Ogden</li></a>
-								<a href="#ogden" class="more tran3s hvr-bounce-to-right"><li>Christie Ogden</li></a>
-								<a href="#ogden" class="more tran3s hvr-bounce-to-right"><li>Christie Ogden</li></a>
+								<ol id="whatsapp_list">
+								<div><a href="#podcast-section" class="more tran3s hvr-bounce-to-right"><li>Christie Ogden</li></a></div>
+								<div><a href="#podcast-section" class="more tran3s hvr-bounce-to-right"><li>Christie Ogden</li></a></div>
+								<div><a href="#podcast-section" class="more tran3s hvr-bounce-to-right"><li>Christie Ogden</li></a></div>
+								<div><a href="#podcast-section" class="more tran3s hvr-bounce-to-right"><li>Christie Ogden</li></a></div>
+								<div><a href="#podcast-section" class="more tran3s hvr-bounce-to-right"><li>Christie Ogden</li></a></div>
+								<div><a href="#podcast-section" class="more tran3s hvr-bounce-to-right"><li>Christie Ogden</li></a></div>
+								<div><a href="#podcast-section" class="more tran3s hvr-bounce-to-right"><li>Christie Ogden</li></a></div>
+								<div><a href="#podcast-section" class="more tran3s hvr-bounce-to-right"><li>Christie Ogden</li></a></div>
+								<div><a href="#podcast-section" class="more tran3s hvr-bounce-to-right"><li>Christie Ogden</li></a></div>	
 								</ol>
 							</div> <!-- /.single-about-content -->
 						</div> <!-- /.col -->
@@ -219,14 +205,12 @@
 
 					
 
-					</div> <!-- /.row -->
-				</div> <!-- /.container -->
-			</section> <!-- /#about-us -->
-
+				
+			</div>
 
 
 		
-			<div id="podcast-section">
+			<div id="podcast-section" class="col-lg-4">
 				<div class="container">
 					<div class="page-middle-banner">
 						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -236,24 +220,24 @@
 							<h4 class="resources-title" id="podcasten-section">Podcasts In English</h4>
 							<p>I have done a series of interviews with expats, which can be listened to here below.</p>
 
+							
 
-
-							<div class="podcastcontainer">
-								<h5 class="podcastinterview" id="ogden"><i class="fas fa-headphones-alt"></i>  Christie Ogden</h5>
+							<div class="podcastcontainer hidden" id="ogden">
+								<h5 class="podcastinterview"><i class="fas fa-headphones-alt"></i>  Christie Ogden</h5>
 								<div class="podcastinfo col-xs-12 center-left">
 									Canadian Christie Ogden talks about what it's like to be a full-time traveler for 8 years straight, the necessity she had to live this lifestyle, the everyday challenges she has with her special needs kids, and much more.
 
 									Currently in the Dominican Republic, she is the ultimate low budget traveler!
 
 								</div>
-									<div><audio controls>
+									<div><audio id="ogdenaudio" controls>
 									  <source src="./resources/christieOgden06302019.wav" type="audio/wav">
 									Your browser does not support the audio element.
 									</audio>
 									</div>
 							</div>
 
-							<div class="podcastcontainer">
+							<div class="podcastcontainer hidden" id="mendes">
 								<h5 class="podcastinterview"><i class="fas fa-headphones-alt"></i>  Mia Mendes </h5>
 								<div class="podcastinfo col-xs-12 center-left">
 									Mia Mendes found herself forced to live in Mexico after following her Mexican-born husband after he was deported from the US to a dangerous place just over the US/Mexico border.
@@ -270,7 +254,7 @@
 									</div>
 							</div>
 
-							<div class="podcastcontainer">
+							<div class="podcastcontainer hidden">
 								<h5 class="podcastinterview"><i class="fas fa-headphones-alt"></i>  Jose Hernandes </h5>
 								<div class="podcastinfo col-xs-12 center-left">
 								Mexican born Jose Hernandes, owner of a great New York Style pizzeria called "Pizzeria Eskondida" in Merida, Yucatan, Mexico, talks about returning to Mexico after living 27 years in the US. Interesting info about the quality of cleaning products in the US vs. Mexico, as well as food, US "commercial culture", safety in Merida, Mexico and other so-called "dangerous places" in Latin America, as well as the Yucatan Peninsula, Puerto Vallarta, and Acapulco. What international friendships are like.
@@ -630,7 +614,8 @@
 			</div>
 		</div>
 
-
+</div>
+</div>
 
 	
 
@@ -717,7 +702,9 @@
 		<!-- Theme js -->
 		<script type="text/javascript" src="js/theme.js"></script>
 		<script type="text/javascript" src="js/map-script.js"></script>
-
+		<!-- Menu js -->
+		<script type="text/javascript" src="js/menu.js"></script>
+		
 		</div> <!-- /.main-page-wrapper -->
 		<!-- Default Statcounter code for ExpatMama https://expatmama.leandroprada.website -->
 				<!-- Default Statcounter code for ExpatMama

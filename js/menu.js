@@ -32,10 +32,19 @@ function showhidden(input) {
 	hide_all();
 	input.classList.remove("hidden");
 	input.style.display = "block";
-} 
+}
 
-function setautoplay() {
- ogdenaudio.setAttribute('autoplay','');
+function showhiddenes(input) {
+	hide_all();
+	showhidden(podcasts_es_list);
+	input.classList.remove("hidden");
+	input.style.display = "block";
+}
+
+
+
+function setautoplay(input) {
+ input.setAttribute('autoplay','');
 }
 
 function hide_all(){
@@ -88,10 +97,6 @@ badagnani.classList.remove("hidden");
 trosce.classList.remove("hidden");
 sequera.classList.remove("hidden");
 prada.classList.remove("hidden");
-podcasts_en_list.classList.remove("hidden");
-podcasts_es_list.classList.remove("hidden");
-whatsapp_list.classList.remove("hidden");
-
 }
 
 

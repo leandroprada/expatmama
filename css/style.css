@@ -129,16 +129,16 @@ animation-delay: .8s;
  ***/
 /*  .hiddenpodcast{
 	 position: absolute;
-	 z-index:9;  
+	 z-index:9;
  } */
-  
+
 
 .podcast-section {
 	background-color: transparent;
 	padding: 0;
 	margin: 0;
-} 
- 
+}
+
 .resources-title {
   padding-top: 25px;
   color: #d73e4d;
@@ -147,13 +147,13 @@ animation-delay: .8s;
 	 background-color: #d73e4d;
 	 border-bottom: black 2px dashed;
  }
- 
+
  .espanol-title {
 	 margin-top: 25px;
 	 background-color: #d73e4d;
-	
+
  }
- 
+
 .resources-titlees {
 	padding-top: 25px;
   color: white;
@@ -162,7 +162,6 @@ animation-delay: .8s;
  .podcastinfo {
 color: white;
 font-size: 0.9em;
-
 padding:15px;
 
  }
@@ -170,6 +169,7 @@ padding:15px;
 .podcastcontainer{
   border-bottom: #d73e4d 2px dashed;
   padding-bottom: 25px;
+  font-size: 0.7em;
 
 }
 
@@ -180,9 +180,9 @@ display: inline-block;
 padding:20px 0 0 10px;
 margin-top: 20px;
  }
- 
 
- 
+
+
   .whatsappinfo {
 color: black;
 font-size: 1.1em;
@@ -190,7 +190,7 @@ display: block;
 padding:15px;
 
  }
- 
+
  .whatsapptitle{
 color: white;
  }
@@ -213,12 +213,12 @@ margin-top: 20px;
 
 .resource-child {
 	font-size: 0.7em;
-} 
+}
 .menu-has-children {
   cursor: pointer;
   display: inline-block;
-} 
- 
+}
+
 .scroll-top {
   width:45px;
   height:45px;
@@ -383,6 +383,7 @@ margin-bottom: 10px;
 .blog-details-post-wrapper .post-comment textarea:focus,.blog-details-post-wrapper .post-comment input:focus {
   border-color:#d73e4d;
   border-style: solid;
+  
 }
 /***
 
@@ -552,7 +553,7 @@ margin-bottom: 10px;
 	text-decoration: none;
 	width:100%;
 	border: 1px solid #6f6f6f;
-	
+
 }
 
 

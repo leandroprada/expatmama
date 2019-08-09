@@ -179,9 +179,12 @@ font-size: 1.5em;
 display: inline-block;
 padding:20px 0 0 10px;
 margin-top: 20px;
+text-align:center;
  }
 
-
+.podcast-picture {
+display: inline-block;
+}
 
   .whatsappinfo {
 color: black;

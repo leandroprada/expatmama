@@ -33,6 +33,11 @@ var sep2019 = document.getElementsByClassName('sep2019');
 var oct2019 = document.getElementsByClassName('oct2019');
 var nov2019 = document.getElementsByClassName('nov2019');
 var dec2019 = document.getElementsByClassName('dec2019');
+var eng_filter_button = document.getElementById('eng_filter_button');
+var esp_filter_button = document.getElementById('esp_filter_button');
+var was_filter_button = document.getElementById('was_filter_button');
+
+
 
 function showhidden(input) {
 	hide_all();
@@ -45,7 +50,6 @@ function showhiddendate(input) {
 	var i;
 	for (i = 0; i < input.length; i++) {
 	input[i].classList.remove("hidden");
-	console.log(input[i]);
 	input[i].style.display = "block";
 	}
 	
@@ -65,6 +69,11 @@ function setautoplay(input) {
  input.setAttribute('autoplay','');
 }
 
+function hide(input){
+	input.classList.add("hidden");
+	input.style.display = "none";
+	
+}
 
 function hide_all(){
 
@@ -92,6 +101,9 @@ prada.classList.add("hidden");
 podcasts_en_list.classList.add("hidden");
 podcasts_es_list.classList.add("hidden");
 whatsapp_list.classList.add("hidden");
+eng_filter_button.classList.add("hidden");
+esp_filter_button.classList.add("hidden");
+was_filter_button.classList.add("hidden");
 datepicker.classList.add("hidden");
 
 }
@@ -122,6 +134,10 @@ prada.classList.add("hidden");
 podcasts_en_list.classList.add("hidden");
 podcasts_es_list.classList.add("hidden");
 whatsapp_list.classList.add("hidden");
+eng_filter_button.classList.add("hidden");
+esp_filter_button.classList.add("hidden");
+was_filter_button.classList.add("hidden");
+
 
 
 }
@@ -148,6 +164,10 @@ badagnani.classList.remove("hidden");
 trosce.classList.remove("hidden");
 sequera.classList.remove("hidden");
 prada.classList.remove("hidden");
+eng_filter_button.classList.remove("hidden");
+esp_filter_button.classList.remove("hidden");
+was_filter_button.classList.remove("hidden");
+
 }
 
 

@@ -26,13 +26,31 @@ var prada = document.getElementById('prada');
 var podcasts_en_list = document.getElementById('podcasts_en_list');
 var podcasts_es_list = document.getElementById('podcasts_es_list');
 var whatsapp_list = document.getElementById('whatsapp_list');
-
+var jun2019 = document.getElementsByClassName('jun2019');
+var jul2019 = document.getElementsByClassName('jul2019');
+var aug2019 = document.getElementsByClassName('aug2019');
+var sep2019 = document.getElementsByClassName('sep2019');
+var oct2019 = document.getElementsByClassName('oct2019');
+var nov2019 = document.getElementsByClassName('nov2019');
+var dec2019 = document.getElementsByClassName('dec2019');
 
 function showhidden(input) {
 	hide_all();
 	input.classList.remove("hidden");
 	input.style.display = "block";
 }
+
+function showhiddendate(input) {
+	hide_all_except_datepicker();
+	var i;
+	for (i = 0; i < input.length; i++) {
+	input[i].classList.remove("hidden");
+	console.log(input[i]);
+	input[i].style.display = "block";
+	}
+	
+}
+
 
 function showhiddenes(input) {
 	hide_all();
@@ -46,6 +64,7 @@ function showhiddenes(input) {
 function setautoplay(input) {
  input.setAttribute('autoplay','');
 }
+
 
 function hide_all(){
 
@@ -66,12 +85,44 @@ cravero.classList.add("hidden");
 sans.classList.add("hidden");
 ortiz.classList.add("hidden");
 badagnani.classList.add("hidden");
+smith.classList.add("hidden");
 trosce.classList.add("hidden");
 sequera.classList.add("hidden");
 prada.classList.add("hidden");
 podcasts_en_list.classList.add("hidden");
 podcasts_es_list.classList.add("hidden");
 whatsapp_list.classList.add("hidden");
+datepicker.classList.add("hidden");
+
+}
+
+function hide_all_except_datepicker(){
+
+ogden.classList.add("hidden");
+mendes.classList.add("hidden");
+hernandes.classList.add("hidden");
+bauman.classList.add("hidden");
+hoffman.classList.add("hidden");
+ruttan.classList.add("hidden");
+flores.classList.add("hidden");
+dylan.classList.add("hidden");
+derubeis.classList.add("hidden");
+powell.classList.add("hidden");
+lane.classList.add("hidden");
+meyer.classList.add("hidden");
+ortizpereira.classList.add("hidden");
+cravero.classList.add("hidden");
+sans.classList.add("hidden");
+ortiz.classList.add("hidden");
+badagnani.classList.add("hidden");
+smith.classList.add("hidden");
+trosce.classList.add("hidden");
+sequera.classList.add("hidden");
+prada.classList.add("hidden");
+podcasts_en_list.classList.add("hidden");
+podcasts_es_list.classList.add("hidden");
+whatsapp_list.classList.add("hidden");
+
 
 }
 

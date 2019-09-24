@@ -177,7 +177,7 @@
 								<span><a href="#about-us" class="center more tran3s hvr-bounce-to-right" id="eng_filter_button" onclick="showhidden(podcasts_en_list);">Podcasts In English</a></span>
 								<span><a href="#about-us" class="center more tran3s hvr-bounce-to-right"   id="esp_filter_button"onclick="showhidden(podcasts_es_list);">Podcasts en espa&ntilde;ol</a></span>
 								<span><a href="#about-us" class="center more tran3s hvr-bounce-to-right"  id="was_filter_button" onclick="showhidden(whatsapp_list);">WHATSAPP Interviews</a></span>
-								<span><a href="#datepicker" class="center more tran3s hvr-bounce-to-right" onclick="showhidden(datepicker)">Filter By Date</a></span>
+								<span><a href="#datepicker" class="center more tran3s hvr-bounce-to-right" onclick="showhidden(datepicker); hide(eng_filter_button); hide(esp_filter_button);hide(was_filter_button);">Filter By Date</a></span>
 								<span><a href="#about-us" class="center more tran3s hvr-bounce-to-right selected" onclick="show_all();">SEE ALL</a></span>
 								<span><a href="#about-us" class="center more tran3s hvr-bounce-to-right" onclick="hide_all();">HIDE ALL</a></span>
 
@@ -478,7 +478,8 @@
 							<div id="podcasts_es_list" class="hidden">
 							<p>Debajo las entrevistas que realic&eacute; en espa&ntilde;ol.</p>
 							<ul>
-								<a href="#podcast-section" class="more tran3s hvr-bounce-to-right" onclick="showhidden(ortizpereira);"><li>Mat&iacute;as Ortiz y Luc&iacute;a Pereira Duarte</li></a>
+								<a href="#podcast-section" class="more tran3s hvr-bounce-to-right" onclick="showhidden(ortizpereira);"><li>Mat&iacute;as y Luc&iacute;a</li></a>
+								<a href="#podcast-section" class="more tran3s hvr-bounce-to-right" onclick="showhidden(higgins);"><li>Charlie y Ximena </li></a><a href="#podcast-section" class="more tran3s hvr-bounce-to-right" onclick="showhidden(alan);"><li>Alan W</li></a>
 							</ul>
 							</div>
 
@@ -495,6 +496,46 @@
 							</div>
 								<div><audio controls>
 									<source src="./resources/matiasOrtizyLucianaPereira08042019.wav" type="audio/wav">
+								Your browser does not support the audio element.
+								</audio>
+								</div>
+						</div>
+						
+						<div class="podcastcontainer hidden hiddenpodcast aug2019" id="higgins">
+							<div class="center">
+							<h5 class="podcastinterview ">
+							<div ><img src="./images/avatars/charlieyXimena.png" alt="" class="podcast-picture"></div>
+							 <i class="fas fa-headphones-alt"></i> Charlie Higgins y  Ximena Nieto Casta&ntilde;o (En Espa&ntilde;ol)
+							</h5>
+							</div>
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 center podcastinfo">
+								Charlie creci&oacute; en la costa Este de los Estados Unidos, vivi&oacute; nueva a&ntilde;os en Argentina, donde conoci&oacute; gente de distintos lugares. Ximena naci&oacute; en Colombia, pero vivi&oacute; por toda latinoam&eacute;rica, e hizo su carrera universitaria en Argentina.
+								Charlie es m&uacute;sico y sin saberlo, concurr&iacute;an al mismo bar, luego cuando se conocieron pudieron en retrospectiva, unir los puntos.
+								Viven en Puerto Vallarta, M&eacute;xico.
+								Eligieron M&eacute;xico por las cualidades de su pueblo que tiene una actitud de ver la vida siempre con esperanza.
+							</div>
+								<div><audio controls>
+									<source src="./resources/charlieyJimenaHiggins08132019.wav" type="audio/wav">
+								Your browser does not support the audio element.
+								</audio>
+								</div>
+						</div>
+						
+						
+						<div class="podcastcontainer hidden hiddenpodcast sep2019" id="alan">
+							<div class="center">
+							<h5 class="podcastinterview ">
+							<div ><img src="./images/avatars/png" alt="" class="podcast-picture"></div>
+							 <i class="fas fa-headphones-alt"></i> Alan W(En Espa&ntilde;ol)
+							</h5>
+							</div>
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 center podcastinfo">
+								Kimberlee discute con su hijo Alan, c&oacute;mo fue su experiencia en su viaje de regreso a los Estados Unidos, luego de vivir m&aacute;s de un a&ntilde;o en M&eacute;xico. Hablan sobre c&oacute;mo, luego de sentir a M&eacute;xico como su hogar, la vuelta a EE.UU. fue un choque cultural, vieron muy marcadas las diferencias. 
+								Aunque el plan inicial era que Alan se quedase a vivir en EE.UU. pero su experiencia negativa los llev&oacute; a cambiar esta decisi&oacute;n.
+								Ahora Alan, junto a su hermano Dylan y Kimberlee viven en Chapala, Mexico.
+							</div>
+								<div><audio controls>
+									<source src="./resources/alanW09122019.wav" type="audio/wav">
 								Your browser does not support the audio element.
 								</audio>
 								</div>

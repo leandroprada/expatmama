@@ -144,15 +144,10 @@
 			-->
 			<section id="about-us">
 				<div class="container">
-					<div class="theme-title">
-						<h2>ABOUT OUR Course<br>101: The Beginner's Guide<br>(6 weeks to 6 months abroad)</h2>
-						<div>I'm going to show you how it is possible to work in something which will allow you travel and live where you want. This will be based on other people's experience, and on my own.</div>
-					</div> <!-- /.theme-title -->
-
 					<div class="row">
 
 
-					<div class="col-xs-12" id="expat-section">
+						<div class="col-xs-12" id="expat-section">
 							<div class="theme-title">
 								<h2>Content</h2>
 							</div>

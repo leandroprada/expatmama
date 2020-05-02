@@ -126,7 +126,7 @@
 										data-splitin="none"
 										data-splitout="none"
 										data-responsive_offset="on">
-										<a href="#about-us" class="project-button hvr-bounce-to-right">Get more info!</a>
+										<a href="#about-us" class="project-button hvr-bounce-to-right">View Content!</a>
 									</div>
 
 								</li>

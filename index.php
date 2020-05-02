@@ -13,7 +13,7 @@
 		<!-- For Resposive Device -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<title>Expat Mama - Work and Travel!</title>
+		<title>Expat Mama - Work and Travel! - Exclusive Content</title>
 
 		<!-- Favicon -->
 		<link rel="icon" type="image/png" sizes="56x56" href="images/fav-icon/icon.png">
@@ -130,141 +130,6 @@
 									</div>
 
 								</li>
-
-
-								<!-- SLIDE2  -->
-								<li data-index="rs-20" data-transition="fade" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="video/drinkwinecover.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Expat Mama!" data-description="">
-									<!-- MAIN IMAGE -->
-									<img src="images/home/slide-3.jpg"  alt="image" class="rev-slidebg" data-bgparallax="3" data-bgposition="center center" data-duration="20000" data-ease="Linear.easeNone" data-kenburns="on" data-no-retina="" data-offsetend="0 0" data-offsetstart="0 0" data-rotateend="0" data-rotatestart="0" data-scaleend="100" data-scalestart="140">
-									<!-- LAYERS -->
-
-									<!-- LAYER NR. 1 -->
-									<div class="tp-caption"
-										data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-										data-y="['middle','middle','middle','middle']" data-voffset="['-58','-33','-33','-100']"
-										data-width="none"
-										data-height="none"
-										data-whitespace="nowrap"
-										data-transform_idle="o:1;"
-
-										data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
-										data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-										data-mask_in="x:0px;y:[100%];"
-										data-mask_out="x:inherit;y:inherit;"
-										data-start="1000"
-										data-splitin="none"
-										data-splitout="none"
-										data-responsive_offset="on"
-										style="z-index: 6; white-space: nowrap;">
-										<h1>HELLO, I'm an Expat MAMA</h1>
-									</div>
-
-									<!-- LAYER NR. 2 -->
-									<div class="tp-caption"
-										data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-										data-y="['middle','middle','middle','middle']" data-voffset="['-05','93','93','20']"
-										data-width="none"
-										data-height="none"
-										data-whitespace="nowrap"
-										data-transform_idle="o:1;"
-
-										data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
-										data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-										data-mask_in="x:0px;y:[100%];"
-										data-mask_out="x:inherit;y:inherit;"
-										data-start="2000"
-										data-splitin="none"
-										data-splitout="none"
-										data-responsive_offset="on"
-										style="z-index: 6; white-space: nowrap;">
-										<h6>True freedom, location-independent income & traveling the world whenever you feel like it, on any income!</h6>
-									</div>
-
-
-									<!-- LAYER NR. 3 -->
-									<div class="tp-caption"
-										data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-										data-y="['middle','middle','middle','middle']" data-voffset="['52','185','185','105']"
-										data-transform_idle="o:1;"
-
-										data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
-										data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-										data-mask_in="x:0px;y:[100%];"
-										data-mask_out="x:inherit;y:inherit;"
-										data-start="3000"
-										data-splitin="none"
-										data-splitout="none"
-										data-responsive_offset="on">
-										<a href="#about-us" class="project-button hvr-bounce-to-right">See Our Course</a>
-									</div>
-								</li>
-
-								<!-- SLIDE3  -->
-								<li data-index="rs-18" data-transition="fade" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="images/home/slide-2.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Expat Mama!" data-description="">
-									<!-- MAIN IMAGE -->
-									<img src="images/home/slide-2.jpg"  alt="image" class="rev-slidebg" data-bgparallax="3" data-bgposition="center center" data-duration="20000" data-ease="Linear.easeNone" data-kenburns="on" data-no-retina="" data-offsetend="0 0" data-offsetstart="0 0" data-rotateend="0" data-rotatestart="0" data-scaleend="100" data-scalestart="140">
-									<!-- LAYERS -->
-
-									<!-- LAYER NR. 1 -->
-									<div class="tp-caption"
-										data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-										data-y="['middle','middle','middle','middle']" data-voffset="['-58','-33','-33','-100']"
-										data-width="none"
-										data-height="none"
-										data-whitespace="nowrap"
-										data-transform_idle="o:1;"
-
-										data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
-										data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-										data-mask_in="x:0px;y:[100%];"
-										data-mask_out="x:inherit;y:inherit;"
-										data-start="1000"
-										data-splitin="none"
-										data-splitout="none"
-										data-responsive_offset="on"
-										style="z-index: 6; white-space: nowrap;">
-										<h1>Travel like Expat MAMA!</h1>
-									</div>
-
-									<!-- LAYER NR. 2 -->
-									<div class="tp-caption"
-										data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-										data-y="['middle','middle','middle','middle']" data-voffset="['-05','93','93','20']"
-										data-width="none"
-										data-height="none"
-										data-whitespace="nowrap"
-										data-transform_idle="o:1;"
-
-										data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
-										data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-										data-mask_in="x:0px;y:[100%];"
-										data-mask_out="x:inherit;y:inherit;"
-										data-start="2000"
-										data-splitin="none"
-										data-splitout="none"
-										data-responsive_offset="on"
-										style="z-index: 6; white-space: nowrap;">
-										<h6>True freedom, location-independent income & traveling the world whenever you feel like it, on any income!</h6>
-									</div>
-
-
-									<!-- LAYER NR. 3 -->
-									<div class="tp-caption"
-										data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-										data-y="['middle','middle','middle','middle']" data-voffset="['52','185','185','105']"
-										data-transform_idle="o:1;"
-
-										data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
-										data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-										data-mask_in="x:0px;y:[100%];"
-										data-mask_out="x:inherit;y:inherit;"
-										data-start="3000"
-										data-splitin="none"
-										data-splitout="none"
-										data-responsive_offset="on">
-										<a href="#about-us" class="project-button hvr-bounce-to-right">See Our Offering</a>
-									</div>
-								</li>
 							</ul>
 						</div>
 					</div><!-- END REVOLUTION SLIDER -->
@@ -285,61 +150,18 @@
 					</div> <!-- /.theme-title -->
 
 					<div class="row">
-						<div class="col-lg-3 col-md-3 col-sm-6">
-							<div class="single-about-content">
-								<div class="icon round-border tran3s">
-									<i class="fa fa-pencil-square-o" aria-hidden="true"></i>
-								</div>
-								<h5><a href="#contact-section" class="tran3s">FIRST-HAND EXPERIENCE</a></h5>
-								<p>Learn about how I successfully manage to travel with my children and make a living on the way.</p>
-								<a href="#contact-section" class="more tran3s hvr-bounce-to-right">More Info</a>
-							</div> <!-- /.single-about-content -->
-						</div> <!-- /.col -->
-
-						<div class="col-lg-3 col-md-3 col-sm-6">
-							<div class="single-about-content">
-								<div class="icon round-border tran3s">
-									<i class="fa fa-headset" aria-hidden="true"></i>
-								</div>
-								<h5><a href="#contact-section" class="tran3s">SUPPORT</a></h5>
-								<p>Exclusive Facebook group for members who enroll. Weekly live coaching sessions with Q & A</p>
-								<a href="#contact-section" class="more tran3s hvr-bounce-to-right">More Info</a>
-							</div> <!-- /.single-about-content -->
-						</div> <!-- /.col -->
-
-						<div class="col-lg-3 col-md-3 col-sm-6">
-							<div class="single-about-content">
-								<div class="icon round-border tran3s">
-									<i class="fas fa-hand-holding-usd" aria-hidden="true"></i>
-								</div>
-								<h5><a href="#contact-section" class="tran3s">MONEY</a></h5>
-								<p>How disabled individuals, single parents and others with a limited income can create a full-time, sometime or anytime traveling lifestyle or live abroad and how to create location-independent, online income sources</p>
-								<a href="#contact-section" class="more tran3s hvr-bounce-to-right">More Info</a>
-							</div> <!-- /.single-about-content -->
-						</div> <!-- /.col -->
-
-						<div class="col-lg-3 col-md-3 col-sm-6">
-							<div class="single-about-content">
-								<div class="icon round-border tran3s">
-									<i class="fa fa-luggage-cart" aria-hidden="true"></i>
-								</div>
-								<h5><a href="#contact-section" class="tran3s">Nomad Life</a></h5>
-								<p> How you can create this lifestyle and be living it within the next 6 months. Fears - this is real! How to stop being scared and just take the leap and do it!</p>
-								<a href="#contact-section" class="more tran3s hvr-bounce-to-right">More Info</a>
-							</div> <!-- /.single-about-content -->
-						</div> <!-- /.col -->
 
 
 					<div class="col-xs-12" id="expat-section">
 							<div class="theme-title">
-								<h2>Expat</h2>
+								<h2>Content</h2>
 							</div>
 							<div class="single-about-content">
 
-								<h5><a href="#contact-section" class="tran3s">What is an expat?</a></h5>
+								<h5><a href="#contact-section" class="tran3s">Exclusive Content</a></h5>
 
-								<p>An expatriate (often shortened to expat) is a person residing in a country other than their native country. In common usage, the term often refers to professionals, skilled workers, or artists taking positions outside their home country, either independently or sent abroad by their employers, who can be companies, universities, governments, or non-governmental organisations.[2] Effectively migrant workers, they usually earn more than they would at home, and less than local employees. However, the term 'expatriate' is also used for retirees and others who have chosen to live outside their native country.</p>
-								<p style="font-size:7px;">Source: Wikipedia</p>
+								<p>In this section you will find all of our exclusive content for subscribers.</p>
+								
 								<a href="#contact-section" class="more tran3s hvr-bounce-to-right">More Info</a>
 							</div> <!-- /.single-about-content -->
 						</div> <!-- /.col -->
@@ -352,104 +174,8 @@
 			</section> <!-- /#about-us -->
 
 
-			<!--
-			=====================================================
-				Page middle banner
-			=====================================================
-			-->
-
-			<div class="page-middle-banner">
-				<div class="opacity">
-					<h3>Work and travel can be done! <span class="p-color">&amp;</span> I will show you how</h3>
-
-					<a href="#contact-section" class="hvr-bounce-to-right">Contact us!</a>
-
-				</div> <!-- /.opacity -->
-			</div> <!-- /.page-middle-banner -->
-
-
-
-
-
-			<div class="theme-title">
-						<div style="padding=20px;"><h2>Some of the places I've lived in or been to as an Expat Mama</h2></div>
-			</div> <!-- /.theme-title -->
-
-
-			<!--
-			=====================================================
-				Partner Section
-			=====================================================
-			-->
-
-			<section class="col-xs-12" id="partner-section">
-
-				<div class="container">
-					<div>
-					<img src="images/map.png" alt="map">
-					</div>
-
-					<div id="partner_logo" class="owl-carousel owl-theme">
-						<div class="item"><img src="images/logo/p1.png" alt="logo">AR</div>
-						<div class="item"><img src="images/logo/p2.png" alt="logo">US</div>
-						<div class="item"><img src="images/logo/p3.png" alt="logo">MX</div>
-						<div class="item"><img src="images/logo/p4.png" alt="logo">UT</div>
-						<div class="item"><img src="images/logo/p5.png" alt="logo">BA</div>
-						<div class="item"><img src="images/logo/p6.png" alt="logo">BS</div>
-						<div class="item"><img src="images/logo/p7.png" alt="logo">CO</div>
-						<div class="item"><img src="images/logo/p8.png" alt="logo">CU</div>
-					</div> <!-- End .partner_logo -->
-	
-
-			<div class="theme-title">
-						<div style="padding=20px;"><h2>Where am I planning on going in the future?</h2></div>
-			</div> <!-- /.theme-title -->
 			
 			
-			<div class="col-xs-12" style="font-size:1.3em;">
-					
-					<h4 class="center-left">Here's the projected itinerary (subject to change):</h4>
-						
-					<div class="col-xs-6" style="padding:15px;">	
-						<ul ><i class="fa fa-calendar" aria-hidden="true"> </i><span style="font-size:1.2em;font-weight:800"> August 2019</span> 
-							<li>Puerto Vallarta, Mexico</li>
-							<li>Phoenix, Scottsdale, Mesa, Flagstaff, Grand Canyon, Arizona</li>
-							<li>Las Vegas, Nevada</li>
-							<li>St. George, Utah</li>
-							<li>Salt Lake City, Utah</li>
-							<li>Brigham City & Logan, Utah</li>
-							<li>Preston, Idaho</li>
-						</ul>
-						
-						<ul ><i class="fa fa-calendar" aria-hidden="true"> </i><span style="font-size:1.2em;font-weight:800"> September 2019</span> 
-							<li>Guadalajara, Mexico</li>
-							<li>Chapala, Mexico</li>
-						</ul>
-					</div>
-					<div class="col-xs-6" style="padding:15px;">						
-						<ul ><i class="fa fa-calendar" aria-hidden="true"> </i><span style="font-size:1.2em;font-weight:800"> November 2019</span> 
-							<li>Acapulco, Mexico</li>
-						</ul>
-						
-						<ul ><i class="fa fa-calendar" aria-hidden="true"> </i><span style="font-size:1.2em;font-weight:800"> April/May 2020</span> 
-							<li>Ireland</li>
-						</ul>
-						
-						<ul ><i class="fa fa-calendar" aria-hidden="true"> </i><span style="font-size:1.2em;font-weight:800"> July/August 2020</span> 
-							<li>Quebec, Canada</li>
-							<li>New York City, New York</li>
-						</ul>
-						
-						<ul ><i class="fas fa-heart"> </i><span style="font-size:1.2em;font-weight:800"> Wish list (Where I still want to go):</span> 
-							<li>Europe, Egypt, Morocco, Israel, Jordan, Thailand, Philippines, Bali, New Zealand, rest of Central and South America</li>
-						</ul>
-					</div>
-					
-			
-			</div>
-		</div>			 <!-- /.container -->
-	</section>  <!-- /#partner-section -->
-
  <!-- Start Video promo Section -->
 				  <section class="video-promo section">
 					  <div class="overlay"></div>
@@ -515,7 +241,7 @@
 									<li>
 										<div class="icon tran3s round-border p-color-bg"><i class="fab fa-whatsapp" aria-hidden="true"></i></div>
 										<h6>Whatsapp</h6>
-										<a href="https://wa.me/529841404036" target="_blank">+52-984-140-4036</a>
+										<a href="https://wa.me/12098817724" target="_blank">+1-209-881-7724</a>
 									</li>
 									<li>
 										<div class="icon tran3s round-border p-color-bg"><i class="fas fa-envelope" aria-hidden="true"></i></div>

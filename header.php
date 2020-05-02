@@ -21,11 +21,7 @@
 					   <div class="collapse navbar-collapse" id="navbar-collapse-1">
 					     <ul class="nav navbar-nav">
 					       	<li class="active"><a href="#home">HOME</a></li>
-							<li><a href="#about-us">THE COURSE</a></li>
-							<li><a href="#expat-section">EXPAT</a></li>
-							<li><a href="#blog-section">ABOUT</a></li>
-							<li class="menu-has-children resouce-menu"><a href="resources.php">RESOURCES&nbsp;&nbsp;&nbsp; </a></li> 
-							
+							<li><a href="#expat-section">EXCLUSIVE CONTENT</a></li>
 							<li><a href="#contact-section">CONTACT</a></li>
 							<?php if (($_SESSION['login']) == 'validated') {
 					?>		<li><a href="./login/logout.php">Logout</a></li>

@@ -1,9 +1,9 @@
 <?php
  session_start();
 $userlogged = $_SESSION['name'];
-(!isset($userlogged))  {
+if ($userlogged == null)  {
 				header("Location: ./login/login.php");
-					}
+					};
 ?>
 <!DOCTYPE html>
 <html lang="en">

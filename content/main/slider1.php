@@ -1,6 +1,6 @@
 <?php
  session_start();
- if $userlogged == null {
+ if ($userlogged == null) {
 	 $userlogged = "there"
  };	
 ?>

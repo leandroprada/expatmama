@@ -3,6 +3,7 @@
 
 ?>
 
+
 <header class="theme-main-header">
 	<div class="container">
 		<a href="index.html" class="logo float-left tran4s"><img src="images/logo/logo.png" alt="Logo"></a>
@@ -20,15 +21,9 @@
 		   <!-- Collect the nav links, forms, and other content for toggling -->
 		   <div class="collapse navbar-collapse" id="navbar-collapse-1">
 			 <ul class="nav navbar-nav">
-				<li class="active"><a href="#home">HOME</a></li>
-				<li><a href="#about-us">THE COURSE</a></li>
-				<li><a href="#expat-section">EXPAT</a></li>
-				<li><a href="#blog-section">ABOUT</a></li>
-				<li class="menu-has-children resouce-menu"><a href="resources.html">RESOURCES&nbsp;&nbsp;&nbsp; </a></li> 
-				<!-- <li class="resource-child"><a href="./resources.html#podcast-section">PODCASTS</a></li>
-				<li class="resource-child"><a href="./resources.html#whatsapp-section">WHATSAPP</a></li>
-				<li class="resource-child"><a href="./resources.html#blogk-section">BLOG</a></li> -->
-				<li><a href="#contact-section">CONTACT</a></li>
+				<li class="active"><a href="index.html">HOME</a></li>
+				<li ><a href="#podcast-section" onclick="home();">PODCASTS</a></li>
+				<li><a href="#blogk-section" onclick="home();">BLOG</a></li>
 				<?php if (($_SESSION['login']) == 'validated') {
 					?>		<li><a href="./login/logout.php">Logout</a></li>
 												
@@ -37,8 +32,9 @@
 					<li><a href="./login/login.php" class="genric-btn danger circle">Login<span class="lnr lnr-arrow-right"></span></a></li>
 			    <?php } ?>
 					
+				
 			 </ul>
 		   </div><!-- /.navbar-collapse -->
 		</nav> <!-- /.theme-feature-menu -->
 	</div>
-</header> 
+</header>

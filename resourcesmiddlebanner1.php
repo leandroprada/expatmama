@@ -1,200 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<!-- For IE -->
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<?php
+ session_start();
 
-		<!-- For Resposive Device -->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-		<title>Expat Mama - Work and Travel!</title>
-
-		<!-- Favicon -->
-		<link rel="icon" type="image/png" sizes="56x56" href="images/fav-icon/icon.png">
-
-
-		<!-- Main style sheet -->
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<!-- responsive style sheet -->
-		<link rel="stylesheet" type="text/css" href="css/responsive.css">
-
-
-		<!-- Fix Internet Explorer ______________________________________-->
-
-		<!--[if lt IE 9]>
-			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-			<script src="vendor/html5shiv.js"></script>
-			<script src="vendor/respond.js"></script>
-		<![endif]-->
-
-
-<!-- FONTS Awesome -->
-<script src="https://kit.fontawesome.com/f3532c2ad3.js"></script>
-
-	</head>
-
-	<body>
+?>
 
 
 
-<div class="main-page-wrapper">
+<div id="podcast-section" class="podcast-section col-lg-12 col-xs-12">
+	<div class=" page-middle-banner">
+		<div class="opacity">
+			<h3 class="">Enjoy our extra resources!</h3>
+			<span><a href="#about-us" class="center more tran3s hvr-bounce-to-right" id="eng_filter_button" onclick="showhidden(podcasts_en_list);">Podcasts In English</a></span>
+			<span><a href="#about-us" class="center more tran3s hvr-bounce-to-right"   id="esp_filter_button"onclick="showhidden(podcasts_es_list);">Podcasts en espa&ntilde;ol</a></span>
+			<span><a href="#about-us" class="center more tran3s hvr-bounce-to-right"  id="was_filter_button" onclick="showhidden(whatsapp_list);">WHATSAPP Interviews</a></span>
+			<span><a href="#datepicker" class="center more tran3s hvr-bounce-to-right" onclick="showhidden(datepicker); hide(eng_filter_button); hide(esp_filter_button);hide(was_filter_button);">Filter By Date</a></span>
+			<span><a href="#about-us" class="center more tran3s hvr-bounce-to-right selected" onclick="show_all();">SEE ALL</a></span>
+			<span><a href="#about-us" class="center more tran3s hvr-bounce-to-right" onclick="hide_all();">HIDE ALL</a></span>
 
-
-
-			<!--
-			=============================================
-				Theme Header
-			==============================================
-			-->
-			<header class="theme-main-header">
-				<div class="container">
-					<a href="index.html" class="logo float-left tran4s"><img src="images/logo/logo.png" alt="Logo"></a>
-
-					<!-- ========================= Theme Feature Page Menu ======================= -->
-					<nav class="navbar float-right theme-main-menu one-page-menu">
-					   <!-- Brand and toggle get grouped for better mobile display -->
-					   <div class="navbar-header">
-					     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
-					       <span class="sr-only">Toggle navigation</span>
-					       Menu
-					       <i class="fa fa-bars" aria-hidden="true"></i>
-					     </button>
-					   </div>
-					   <!-- Collect the nav links, forms, and other content for toggling -->
-					   <div class="collapse navbar-collapse" id="navbar-collapse-1">
-					     <ul class="nav navbar-nav">
-					       	<li class="active"><a href="index.html">HOME</a></li>
-							<!-- <li><a href="./index.html#about-us">THE COURSE</a></li>
-							<li><a href="./index.html#expat-section">EXPAT</a></li>
-							<li><a href="./index.html#blog-section">ABOUT</a></li> -->
-							<!-- <li class="menu-has-children resouce-menu"><a href="#resources-section">RESOURCES&nbsp;&nbsp;&nbsp;</a></li> -->
-							<li ><a href="#podcast-section" onclick="home();">PODCASTS</a></li>
-							<!-- <li class="resource-child"><a href="#podcasten-section" onclick="home();">in English</a></li>
-							<li class="resource-child"><a href="#podcastes-section" onclick="home();"> En Espa&ntilde;ol</a></li>
-							<li ><a href="#whatsapp-section"onclick="home();">WHATSAPP</a></li>
-							 -->
-							 <li><a href="#blogk-section" onclick="home();">BLOG</a></li>
-							<!-- <li><a href="./index.html#contact-section">CONTACT</a></li> -->
-					     </ul>
-					   </div><!-- /.navbar-collapse -->
-					</nav> <!-- /.theme-feature-menu -->
-				</div>
-			</header> <!-- /.theme-main-header -->
-
-			<!--
-			=====================================================
-				Theme Main SLider
-			=====================================================
-			-->
-			<div id="home" class="banner">
-	        	<div class="rev_slider_wrapper">
-					<!-- START REVOLUTION SLIDER 5.0.7 auto mode -->
-						<div id="main-banner-slider" class="rev_slider video-slider" data-version="5.0.7">
-							<ul>
-
-								<!-- SLIDE1  -->
-								<li data-index="rs-280" data-transition="fade" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default"  data-title="Resources" data-description="">
-									<!-- MAIN IMAGE -->
-									<img src="images/home/slide-4.jpg"  alt="image" class="rev-slidebg" data-bgparallax="3" data-bgposition="center center" data-duration="20000" data-ease="Linear.easeNone" data-kenburns="on" data-no-retina="" data-offsetend="0 0" data-offsetstart="0 0" data-rotateend="0" data-rotatestart="0" data-scaleend="100" data-scalestart="140">
-									<!-- LAYERS -->
-
-									<!-- LAYER NR. 1 -->
-									<div class="tp-caption"
-										data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-										data-y="['middle','middle','middle','middle']" data-voffset="['-58','-58','0','-50']"
-										data-width="none"
-										data-height="none"
-										data-whitespace="nowrap"
-										data-transform_idle="o:1;"
-
-										data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
-										data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-										data-mask_in="x:0px;y:[100%];"
-										data-mask_out="x:inherit;y:inherit;"
-										data-start="1000"
-										data-splitin="none"
-										data-splitout="none"
-										data-responsive_offset="on"
-										style="z-index: 6; white-space: nowrap;">
-										<h1>Resources</h1>
-									</div>
-
-									<!-- LAYER NR. 2 -->
-									<div class="tp-caption"
-										data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-										data-y="['middle','middle','middle','middle']" data-voffset="['-05','-05','63','0']"
-										data-width="none"
-										data-height="none"
-										data-whitespace="nowrap"
-										data-transform_idle="o:1;"
-
-										data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
-										data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-										data-mask_in="x:0px;y:[100%];"
-										data-mask_out="x:inherit;y:inherit;"
-										data-start="2000"
-										data-splitin="none"
-										data-splitout="none"
-										data-responsive_offset="on"
-										style="z-index: 6; white-space: nowrap;">
-										<h6>Interviews, blog and more!</h6>
-									</div>
-
-
-									<!-- LAYER NR. 3 -->
-									<div class="tp-caption"
-										data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-										data-y="['middle','middle','middle','middle']" data-voffset="['52','52','125','80']"
-										data-transform_idle="o:1;"
-
-										data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
-										data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-										data-mask_in="x:0px;y:[100%];"
-										data-mask_out="x:inherit;y:inherit;"
-										data-start="3000"
-										data-splitin="none"
-										data-splitout="none"
-										data-responsive_offset="on">
-										<a href="#podcast-section" class="project-button hvr-bounce-to-right" onclick="home();">Dive right in!</a>
-									</div>
-
-								</li>
-
-							</ul>
-						</div>
-					</div><!-- END REVOLUTION SLIDER -->
-	        </div> <!--  /#banner -->
-
-
-	<div id="podcast-section" class="podcast-section col-lg-12 col-xs-12">
-				<div class=" page-middle-banner">
-
-
-							<div class="opacity">
-								<h3 class="">Enjoy our extra resources!</h3>
-
-								<span><a href="#about-us" class="center more tran3s hvr-bounce-to-right" id="eng_filter_button" onclick="showhidden(podcasts_en_list);">Podcasts In English</a></span>
-								<span><a href="#about-us" class="center more tran3s hvr-bounce-to-right"   id="esp_filter_button"onclick="showhidden(podcasts_es_list);">Podcasts en espa&ntilde;ol</a></span>
-								<span><a href="#about-us" class="center more tran3s hvr-bounce-to-right"  id="was_filter_button" onclick="showhidden(whatsapp_list);">WHATSAPP Interviews</a></span>
-								<span><a href="#datepicker" class="center more tran3s hvr-bounce-to-right" onclick="showhidden(datepicker); hide(eng_filter_button); hide(esp_filter_button);hide(was_filter_button);">Filter By Date</a></span>
-								<span><a href="#about-us" class="center more tran3s hvr-bounce-to-right selected" onclick="show_all();">SEE ALL</a></span>
-								<span><a href="#about-us" class="center more tran3s hvr-bounce-to-right" onclick="hide_all();">HIDE ALL</a></span>
-
-
-							<div id="datepicker" class="hidden">
-								<p>2019<p/>
-								<ul>
-									<a href="#about-us" class="more tran3s hvr-bounce-to-right" onclick="showhiddendate(jun2019);" style="width:60px;"><li>Jun</li></a>
-									<a href="#about-us" class="more tran3s hvr-bounce-to-right" onclick="showhiddendate(jul2019);"  style="width:60px;"><li>Jul</li></a>
-									<a href="#about-us" class="more tran3s hvr-bounce-to-right" onclick="showhiddendate(aug2019); "  style="width:60px;"><li>Aug</li></a>
-									<a href="#about-us" class="more tran3s hvr-bounce-to-right" onclick="showhiddendate(sep2019)"  style="width:60px;"><li>Sep</li></a>
-									<a href="#about-us" class="more tran3s hvr-bounce-to-right" onclick="showhiddendate(oct2019)"  style="width:60px;"><li>Oct</li></a>
-									<a href="#about-us" class="more tran3s hvr-bounce-to-right" onclick="showhiddendate(nov2019);"  style="width:60px;"><li>Nov</li></a>
-									<a href="#about-us" class="more tran3s hvr-bounce-to-right" onclick="showhiddendate(dec2019)"  style="width:60px;"><li>Dec</li></a>
-								</ul>
-							</div>
-
+			<div id="datepicker" class="hidden">
+				<p>2019<p/>
+				<ul>
+					<a href="#about-us" class="more tran3s hvr-bounce-to-right" onclick="showhiddendate(jun2019);" style="width:60px;"><li>Jun</li></a>
+					<a href="#about-us" class="more tran3s hvr-bounce-to-right" onclick="showhiddendate(jul2019);"  style="width:60px;"><li>Jul</li></a>
+					<a href="#about-us" class="more tran3s hvr-bounce-to-right" onclick="showhiddendate(aug2019); "  style="width:60px;"><li>Aug</li></a>
+					<a href="#about-us" class="more tran3s hvr-bounce-to-right" onclick="showhiddendate(sep2019)"  style="width:60px;"><li>Sep</li></a>
+					<a href="#about-us" class="more tran3s hvr-bounce-to-right" onclick="showhiddendate(oct2019)"  style="width:60px;"><li>Oct</li></a>
+					<a href="#about-us" class="more tran3s hvr-bounce-to-right" onclick="showhiddendate(nov2019);"  style="width:60px;"><li>Nov</li></a>
+					<a href="#about-us" class="more tran3s hvr-bounce-to-right" onclick="showhiddendate(dec2019)"  style="width:60px;"><li>Dec</li></a>
+				</ul>
+			</div>
 
 							<div id="podcasts_en_list" class=" hidden">
 							<p>I have done a series of interviews with expats, which can be listened to here below.</p>
@@ -714,131 +547,6 @@
 									<a href="https://kimthorneharper.wordpress.com/" target="_blank"class="podcastinterview" >Go to my blog</a>
 
 								</div>
-							</div>
-
-
-
-
-
-
-					</div>
 		</div>
-
-
-
-
-
-			<!--
-			=====================================================
-				Footer
-			=====================================================
-			-->
-			<footer>
-				<div class="container">
-					<a href="index.html" class="logo"><img src="images/logo/logo.png" alt="Logo"></a>
-
-					<ul>
-						<li><a href="https://m.me/AuthorKimThorneHarper?fbclid=IwAR3I-4JyZawZCV5DJNWhw_J_f_Ixy2OLLQJgxhZkayfe4KNyoSFDBnccSxo" target="_blank" class="tran3s round-border"	q><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
-						<li><a href="https://mobile.twitter.com/swlanguages" target="_blank" class="tran3s round-border"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-						<li><a href="https://www.instagram.com/kdthorneharper/" class="tran3s round-border"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
-						<li><a href="skype:live:swlspayments?chat" class="tran3s round-border"><i class="fab fa-skype" aria-hidden="true"></i></a></li>
-						<li><a href="https://www.linkedin.com/in/kimberleethorneharper/" target="_blank" class="tran3s round-border"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
-											</ul>
-
-
-					<p>Copyright @2018 All rights reserved | This template is made with <i class="fas fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
-					Photo by Zachary DeBottis from Pexels / Photo by Peng LIU from Pexels</p>
-
-
-
-				</div>
-			</footer>
-
+	</div>
 </div>
-
-
-
-
-			<!-- =============================================
-				Loading Transition
-			============================================== -->
-			<div id="loader-wrapper">
-				<div id="preloader_1">
-	                <span></span>
-	                <span></span>
-	                <span></span>
-	                <span></span>
-	                <span></span>
-	            </div>
-			</div>
-
-
-	        <!-- Scroll Top Button -->
-			<button class="scroll-top tran3s p-color-bg">
-				<i class="fa fa-arrow-up" aria-hidden="true"></i>
-			</button>
-
-
-
-
-		<!-- Js File_________________________________ -->
-
-		<!-- j Query -->
-		<script type="text/javascript" src="vendor/jquery.2.2.3.min.js"></script>
-
-		<!-- Bootstrap JS -->
-		<script type="text/javascript" src="vendor/bootstrap/bootstrap.min.js"></script>
-
-		<!-- Vendor js _________ -->
-
-		<!-- revolution -->
-		<script src="vendor/revolution/jquery.themepunch.tools.min.js"></script>
-		<script src="vendor/revolution/jquery.themepunch.revolution.min.js"></script>
-		<script type="text/javascript" src="vendor/revolution/revolution.extension.slideanims.min.js"></script>
-		<script type="text/javascript" src="vendor/revolution/revolution.extension.layeranimation.min.js"></script>
-		<script type="text/javascript" src="vendor/revolution/revolution.extension.navigation.min.js"></script>
-		<script type="text/javascript" src="vendor/revolution/revolution.extension.kenburn.min.js"></script>
-		<script type="text/javascript" src="vendor/revolution/revolution.extension.actions.min.js"></script>
-		<script type="text/javascript" src="vendor/revolution/revolution.extension.video.min.js"></script>
-
-
-
-		<!-- owl.carousel -->
-		<script type="text/javascript" src="vendor/owl-carousel/owl.carousel.min.js"></script>
-		<!-- mixitUp -->
-		<script type="text/javascript" src="vendor/jquery.mixitup.min.js"></script>
-		<!-- Progress Bar js -->
-		<script type="text/javascript" src="vendor/skills-master/jquery.skills.js"></script>
-
-
-		<!-- Theme js -->
-		<script type="text/javascript" src="js/theme.js"></script>
-		<script type="text/javascript" src="js/map-script.js"></script>
-		<!-- Menu js -->
-		<script type="text/javascript" src="js/menu.js"></script>
-
-		<!-- Default Statcounter code for ExpatMama https://expatmama.leandroprada.website -->
-				<!-- Default Statcounter code for ExpatMama
-					http://www.expatmama.life -->
-					<script type="text/javascript">
-					var sc_project=12027685;
-					var sc_invisible=1;
-					var sc_security="6acb0cb9";
-					</script>
-					<script type="text/javascript"
-					src="https://www.statcounter.com/counter/counter.js"
-					async></script>
-					<noscript><div class="statcounter"><a title="Web Analytics
-					Made Easy - StatCounter" href="https://statcounter.com/"
-					target="_blank"><img class="statcounter"
-					src="https://c.statcounter.com/12027685/0/6acb0cb9/1/"
-					alt="Web Analytics Made Easy -
-					StatCounter"></a></div></noscript>
-					<!-- End of Statcounter Code -->
-
-
-
-
-				</div> <!-- /.main-page-wrapper -->
-		</body>
-</html>

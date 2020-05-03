@@ -43,6 +43,8 @@ $userlogged = $_SESSION['name'];
 		<div class="main-page-wrapper">
 
 		<?php if (isset($userlogged))  {
+			
+			echo
 				<!--
 			=============================================
 				Theme Header
@@ -381,7 +383,7 @@ $userlogged = $_SESSION['name'];
 				
 			}
 			
-			elseif (!isset($userlogged))  {
+			elseif (!isset($userlogged))  { echo
 					<!--
 			=============================================
 				Theme Header

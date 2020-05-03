@@ -17,4 +17,4 @@
 			<p>Copyright @2018 All rights reserved | This template is made with <i class="fas fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
 			<p>Photo by Zachary DeBottis from Pexels / Photo by Peng LIU from Pexels</p>
 		</div>
-	</footer>
+</footer>

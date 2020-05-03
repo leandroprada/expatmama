@@ -41,10 +41,10 @@ $_SESSION['username'] = $_POST['username'];
 				<form class="login100-form validate-form flex-sb flex-w" action="signup.php" method="post">
 					<span class="login100-form-title p-b-32">
 						Login - <?php
-													 if (($_SESSION['login']) != "validated") {
-													 echo '<span style="font-size:0.3em;"> Invalid user - Try Again!"</span>';}
+																	 if (($_SESSION['login']) != "validated") {
+																	 echo '<span style="font-size:0.5em; color:"red""> You are not validated</span>';}
 
-													?>
+																	?>
 					</span>
 
 					<span class="txt1 p-b-11">

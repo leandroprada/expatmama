@@ -6,11 +6,20 @@ require 'dbconn.inc.php';
  $username = $_POST['username'];
  $password = $_POST['password'];
  $sql = "SELECT username FROM users WHERE username=?";
+//this code is to get the user name
+	$query1 = "SELECT name FROM usr WHERE username=";
+	$query2 = '"'.$username.'";';
+	$query = $query1.$query2;
+	$result = mysqli_query($conn,$query);
+	$row = mysqli_fetch_row($result);
+	$_SESSION['name'] = $row[0];
+
+ 
  $stmt = mysqli_stmt_init($conn);
 
  if (!mysqli_stmt_prepare($stmt, $sql)){
 	  header("Location: login.php?error=wrongusername");
-	  echo "yo are not connected";
+	  echo "Cannot access database";
 	  exit();
 	  }
 	  else {
@@ -21,14 +30,17 @@ require 'dbconn.inc.php';
 		  mysqli_stmt_store_result($stmt);
 		  $resultCheck = mysqli_stmt_num_rows($stmt);
 		  if ($resultCheck >= 1) {
-				$_SESSION['login'] = 'validated';
-			   header("Location: ../index.php?login=validated");
+				$_SESSION['login'] = "validated";
+				$_SESSION['username'] = $username;
+				
+			   header("Location: ../index.php?userlogon=true");
 		  }
 		  else {
-			  header("Location: login.php?error=sqlcouldnotexecute");
+			  header("Location: ../index.php?error=sqlcouldnotexecute");
 		  }
 
 	  }
+	  
 
 
 ?>
@@ -36,7 +48,7 @@ require 'dbconn.inc.php';
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Login V14</title>
+	<title>ExpatMama Login</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->

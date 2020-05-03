@@ -44,15 +44,15 @@ $userlogged = $_SESSION['name'];
 
 		<?php if (isset($userlogged))  {
 			
-			echo
+			echo '
 				<!--
 			=============================================
 				Theme Header
 			==============================================
-			-->
+			-->';
 			
-				<?php require "header.php";?>
-
+			require "header.php";
+			echo '
 			<!--
 			=====================================================
 				Theme Main SLider
@@ -376,22 +376,22 @@ $userlogged = $_SESSION['name'];
   ldk.src = 'https://s.cliengo.com/weboptimizer/5d319819e4b0f905135b7465/5d31981ae4b0f905135b7468.js';
   var s = document.getElementsByTagName('script')[0];
   s.parentNode.insertBefore(ldk, s);
-})();</script>
+})();</script>'
             
 
 ;
 				
 			}
 			
-			elseif (!isset($userlogged))  { echo
+			elseif (!isset($userlogged))  { echo '
 					<!--
 			=============================================
 				Theme Header
 			==============================================
-			-->
+			-->';
 			
-				<?php require "header.php";?>
-
+			require "header.php";
+			echo '
 			<!--
 			=====================================================
 				Theme Main SLider
@@ -472,7 +472,7 @@ $userlogged = $_SESSION['name'];
 							</ul>
 						</div>
 					</div><!-- END REVOLUTION SLIDER -->
-	        </div> <!--  /#banner -->
+	        </div> <!--  /#banner -->'
 
 
 					}

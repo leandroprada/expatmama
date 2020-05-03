@@ -87,7 +87,7 @@ $userlogged = $_SESSION['name'];
 										data-splitout="none"
 										data-responsive_offset="on"
 										style="z-index: 6; white-space: nowrap;">
-										<h1>Welcome <?php echo .$userlogged. ?> to Expat MAMA!</h1>
+										<h1>Welcome <?php echo $userlogged; ?> to Expat MAMA!</h1>
 									</div>
 
 									<!-- LAYER NR. 2 -->

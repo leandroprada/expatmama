@@ -1,6 +1,8 @@
 <?php
  session_start();
-
+ if $userlogged == null {
+	 $userlogged = "there"
+ };
 ?>
 
 <div id="home" class="banner">

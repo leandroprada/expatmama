@@ -7,6 +7,15 @@ require 'dbconn.inc.php';
  $password = $_POST['password'];
  $sql = "SELECT username FROM users WHERE username=?";
  
+ //this code is to get the user name
+	$query1 = "SELECT name FROM usr WHERE email=";
+	$query2 = '"'.$email.'";';
+	$query = $query1.$query2;
+	$result = mysqli_query($conn,$query);
+	$row = mysqli_fetch_row($result);
+	$_SESSION['name'] = $row[0];
+
+ 
  $stmt = mysqli_stmt_init($conn);
 
  if (!mysqli_stmt_prepare($stmt, $sql)){

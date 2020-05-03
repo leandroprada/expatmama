@@ -112,7 +112,7 @@ if ($userlogged == null)  {
 				Footer
 			=====================================================
 			-->
-			
+			<?php include "footer1.php";?>	
 			<!-- /footer-section -->
 			
 			

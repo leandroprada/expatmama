@@ -5,7 +5,7 @@
 
 <header class="theme-main-header">
 	<div class="container">
-		<a href="index.html" class="logo float-left tran4s"><img src="images/logo/logo.png" alt="Logo"></a>
+		<a href="index.php" class="logo float-left tran4s"><img src="images/logo/logo.png" alt="Logo"></a>
 
 		<!-- ========================= Theme Feature Page Menu ======================= -->
 		<nav class="navbar float-right theme-main-menu one-page-menu">
@@ -24,7 +24,7 @@
 				<li><a href="#about-us">THE COURSE</a></li>
 				<li><a href="#expat-section">EXPAT</a></li>
 				<li><a href="#blog-section">ABOUT</a></li>
-				<li class="menu-has-children resouce-menu"><a href="resources.html">RESOURCES&nbsp;&nbsp;&nbsp; </a></li> 
+				<li class="menu-has-children resouce-menu"><a href="resources.php">RESOURCES&nbsp;&nbsp;&nbsp; </a></li> 
 				<!-- <li class="resource-child"><a href="./resources.html#podcast-section">PODCASTS</a></li>
 				<li class="resource-child"><a href="./resources.html#whatsapp-section">WHATSAPP</a></li>
 				<li class="resource-child"><a href="./resources.html#blogk-section">BLOG</a></li> -->

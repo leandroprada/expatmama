@@ -6,7 +6,7 @@
 
 <header class="theme-main-header">
 	<div class="container">
-		<a href="index.html" class="logo float-left tran4s"><img src="images/logo/logo.png" alt="Logo"></a>
+		<a href="index.php" class="logo float-left tran4s"><img src="images/logo/logo.png" alt="Logo"></a>
 
 		<!-- ========================= Theme Feature Page Menu ======================= -->
 		<nav class="navbar float-right theme-main-menu one-page-menu">
@@ -21,7 +21,7 @@
 		   <!-- Collect the nav links, forms, and other content for toggling -->
 		   <div class="collapse navbar-collapse" id="navbar-collapse-1">
 			 <ul class="nav navbar-nav">
-				<li class="active"><a href="index.html">HOME</a></li>
+				<li class="active"><a href="index.php">HOME</a></li>
 				<li ><a href="#podcast-section" onclick="home();">PODCASTS</a></li>
 				<li><a href="#blogk-section" onclick="home();">BLOG</a></li>
 				<?php if (($_SESSION['login']) == 'validated') {

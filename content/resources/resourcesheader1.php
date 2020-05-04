@@ -6,7 +6,7 @@
 
 <header class="theme-main-header">
 	<div class="container">
-		<a href="index.html" class="logo float-left tran4s"><img src="images/logo/logo.png" alt="Logo"></a>
+		<a href="index.php" class="logo float-left tran4s"><img src="images/logo/logo.png" alt="Logo"></a>
 
 		<!-- ========================= Theme Feature Page Menu ======================= -->
 		<nav class="navbar float-right theme-main-menu one-page-menu">

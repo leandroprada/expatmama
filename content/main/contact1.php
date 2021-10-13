@@ -42,7 +42,7 @@
 						<li>
 							<div class="icon tran3s round-border p-color-bg"><i class="fab fa-whatsapp" aria-hidden="true"></i></div>
 							<h6>Whatsapp</h6>
-							<a href="https://wa.me/12098817724" target="_blank">+1-209-881-7724</a>
+							<a href="https://wa.me/5213329450349" target="_blank">+52-133-2945-0349</a>
 						</li>
 						<li>
 							<div class="icon tran3s round-border p-color-bg"><i class="fas fa-envelope" aria-hidden="true"></i></div>

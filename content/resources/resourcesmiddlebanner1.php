@@ -534,7 +534,7 @@
 						
 						<div class="podcastcontainer hidden hiddenpodcast oct2021" id="lprada">
 								<h5 class="podcastinterview">
-								<div ><img src="./images/avatars/leoprada.png" alt="" class="podcast-picture"></div>
+								<div ><img src="./images/avatars/leoPrada.png" alt="" class="podcast-picture"></div>
 								<i class="fas fa-headphones-alt"></i> Leo Prada 
 								</h5>
 								<p class="podcastinfo">

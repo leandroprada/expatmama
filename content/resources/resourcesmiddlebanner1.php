@@ -23,9 +23,7 @@
 					<a href="#about-us" class="more tran3s hvr-bounce-to-right" onclick="showhiddendate(jul2019);"  style="width:60px;"><li>Jul</li></a>
 					<a href="#about-us" class="more tran3s hvr-bounce-to-right" onclick="showhiddendate(aug2019); "  style="width:60px;"><li>Aug</li></a>
 					<a href="#about-us" class="more tran3s hvr-bounce-to-right" onclick="showhiddendate(sep2019)"  style="width:60px;"><li>Sep</li></a>
-					<a href="#about-us" class="more tran3s hvr-bounce-to-right" onclick="showhiddendate(oct2019)"  style="width:60px;"><li>Oct</li></a>
-					<a href="#about-us" class="more tran3s hvr-bounce-to-right" onclick="showhiddendate(nov2019);"  style="width:60px;"><li>Nov</li></a>
-					<a href="#about-us" class="more tran3s hvr-bounce-to-right"  onclick="showhiddendate(dec2019)"  style="width:60px;"><li>Dec</li></a>
+					
 				
 				<p>2021<p/>
 			
@@ -290,7 +288,7 @@
 
 
 
-								<div class="podcastcontainer hidden hiddenpodcast aug2019" id="meyer">
+							<div class="podcastcontainer hidden hiddenpodcast aug2019" id="meyer">
 								<h5 class="podcastinterview">
 								<div ><img src="./images/avatars/maureenMeyer.png" alt="" class="podcast-picture"></div>
 								<i class="fas fa-headphones-alt"></i>  Maureen (Mo) Rooney-Meyer
@@ -314,6 +312,28 @@
 									</audio>
 									</div>
 							</div>
+							
+							<div class="podcastcontainer hidden hiddenpodcast oct2021" id="lprada">
+								<h5 class="podcastinterview">
+								<div ><img src="./images/avatars/leoPrada.png" alt="" class="podcast-picture"></div>
+								<i class="fas fa-headphones-alt"></i> Leo Prada 
+								</h5>
+			
+								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 center podcastinfo">
+									Leo Prada is from Campana, Argentina, he's lived half of his life as a nomad. Last year he was able to live the digital nomad life for a month in Croatia.
+
+								He is a translator for over 20 years and a software project manager now. Both activities are not location related and give him the flexibility to work remote whenever needed.
+
+								He's conducted a series of interviews with fellow adventurers.
+
+								</div>
+									<div><audio controls>
+										  <source src="./resources/ExpatMamaThePodcastSeriesLeoPrada.m4a" type="audio/mp4">
+									Your browser does not support the audio element.
+									</audio>
+									</div>
+						</div>
+						
 
 							<div id="podcasts_es_list" class="hidden">
 							<p>Debajo las entrevistas que realic&eacute; en espa&ntilde;ol.</p>
@@ -381,6 +401,8 @@
 								</audio>
 								</div>
 						</div>
+						
+						
 
 						<div id="whatsapp_list" class="podcastcontainer hidden">
 						<p>Leo Prada has done a series of interviews with expats too, you can listen below.</p>
@@ -533,26 +555,6 @@
 						
 						
 						
-						<div class="podcastcontainer hidden hiddenpodcast oct2021" id="lprada">
-								<h5 class="podcastinterview">
-								<div ><img src="./images/avatars/leoPrada.png" alt="" class="podcast-picture"></div>
-								<i class="fas fa-headphones-alt"></i> Leo Prada 
-								</h5>
-			
-								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 center podcastinfo">
-									Leo Prada is from Campana, Argentina, he's lived half of his life as a nomad. Last year he was able to live the digital nomad life for a month in Croatia.
-
-								He is a translator for over 20 years and a software project manager now. Both activities are not location related and give him the flexibility to work remote whenever needed.
-
-								He's conducted a series of interviews with fellow adventurers.
-
-								</div>
-									<div><audio controls>
-										  <source src="./resources/ExpatMamaThePodcastSeriesLeoPrada.m4a" type="audio/mp4">
-									Your browser does not support the audio element.
-									</audio>
-									</div>
-							</div>
 						
 						
 

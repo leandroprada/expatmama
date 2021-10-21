@@ -25,10 +25,9 @@
 					<a href="#about-us" class="more tran3s hvr-bounce-to-right" onclick="showhiddendate(sep2019)"  style="width:60px;"><li>Sep</li></a>
 					<a href="#about-us" class="more tran3s hvr-bounce-to-right" onclick="showhiddendate(oct2019)"  style="width:60px;"><li>Oct</li></a>
 					<a href="#about-us" class="more tran3s hvr-bounce-to-right" onclick="showhiddendate(nov2019);"  style="width:60px;"><li>Nov</li></a>
-					<a href="#about-us" class="more tran3s hvr-bounce-to-right" onclick="showhiddendate(dec2019)"  style="width:60px;"><li>Dec</li></a>
+					<a href="#about-us" class="more tran3s hvr-bounce-to-right"  onclick="showhiddendate(dec2019)"  style="width:60px;"><li>Dec</li></a>
 				</ul>
-			</div>
-			<div id="datepicker" class="hidden">
+			
 				<p>2021<p/>
 				<ul>
 					<a href="#about-us" class="more tran3s hvr-bounce-to-right" onclick="showhiddendate(oct2021);" style="width:60px;"><li>Oct</li></a>

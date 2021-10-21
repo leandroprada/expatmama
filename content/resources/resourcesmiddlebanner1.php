@@ -28,6 +28,12 @@
 					<a href="#about-us" class="more tran3s hvr-bounce-to-right" onclick="showhiddendate(dec2019)"  style="width:60px;"><li>Dec</li></a>
 				</ul>
 			</div>
+			<div id="datepicker" class="hidden">
+				<p>2021<p/>
+				<ul>
+					<a href="#about-us" class="more tran3s hvr-bounce-to-right" onclick="showhiddendate(oct2021);" style="width:60px;"><li>Oct</li></a>
+				</ul>
+			</div>
 
 							<div id="podcasts_en_list" class=" hidden">
 							<p>I have done a series of interviews with expats, which can be listened to here below.</p>
@@ -46,7 +52,28 @@
 								<a href="#podcast-section" class="more tran3s hvr-bounce-to-right" onclick="showhidden(powell);"><li>Lorraine Powell</li></a>
 								<a href="#podcast-section" class="more tran3s hvr-bounce-to-right" onclick="showhidden(lane);"><li>Heidi Lane</li></a>
 								<a href="#podcast-section" class="more tran3s hvr-bounce-to-right" onclick="showhidden(meyer);"><li>Maureen (Mo) Meyer</li></a>
+								<a href="#podcast-section" class="more tran3s hvr-bounce-to-right" onclick="showhidden(lprada2021);"><li>Leo Prada</li></a>
 							</ul>
+							</div>
+
+							<div class="podcastcontainer hidden hiddenpodcast oct2021" id="lprada2021">
+								<h5 class="podcastinterview">
+								<div ><img src="./images/avatars/leoprada.png" alt="" class="podcast-picture"></div>
+								<i class="fas fa-headphones-alt"></i> Leo Prada 
+								</h5>
+								<p class="podcastinfo">
+									Leo Prada is from Campana, Argentina, he's lived half of his life as a nomad. Last year he was able to live the digital nomad life for a month in Croatia.
+
+								He is a translator for over 20 years and a software project manager now. Both activities are not location related and give him the flexibility to work remote whenever needed.
+
+								He's conducted a series of interviews with fellow adventurers.
+
+								</p>
+									<div><audio id="lprada2021audio" controls>
+									  <source src="./resources/ExpatMamaThePodcastSeriesLeoPrada.m4a" type="audio/wav">
+									Your browser does not support the audio element.
+									</audio>
+									</div>
 							</div>
 
 								<div class="podcastcontainer hidden hiddenpodcast jun2019" id="ogden">

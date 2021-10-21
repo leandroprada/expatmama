@@ -532,25 +532,30 @@
 								</div>
 						</div>
 						
+						
+						
 						<div class="podcastcontainer hidden hiddenpodcast oct2021" id="lprada">
 								<h5 class="podcastinterview">
 								<div ><img src="./images/avatars/leoPrada.png" alt="" class="podcast-picture"></div>
 								<i class="fas fa-headphones-alt"></i> Leo Prada 
 								</h5>
-								<p class="podcastinfo">
+			
+								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 center podcastinfo">
 									Leo Prada is from Campana, Argentina, he's lived half of his life as a nomad. Last year he was able to live the digital nomad life for a month in Croatia.
 
 								He is a translator for over 20 years and a software project manager now. Both activities are not location related and give him the flexibility to work remote whenever needed.
 
 								He's conducted a series of interviews with fellow adventurers.
 
-								</p>
-									<div><audio id="lpradaaudio" controls>
-									  <source src="./resources/ExpatMamaThePodcastSeriesLeoPrada.m4a" type="audio/wav">
+								</div>
+									<div><audio controls>
+										  <source src="./resources/ExpatMamaThePodcastSeriesLeoPrada.m4a" type="audio/mp4">
 									Your browser does not support the audio element.
 									</audio>
 									</div>
 							</div>
+						
+						
 
 
 
